@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Team() {
   return (
-    <section id="instructors" className="p-5 bg-primary">
+    <section id="instructors" className="p-5 bg-p">
       <div className="container">
         <h2 className="text-center text-white">Our Committee</h2>
         <p className="lead text-center text-white mb-5">

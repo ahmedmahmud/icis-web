@@ -3,7 +3,7 @@ export default function Partners() {
   return (
     <div>
       {/* gold sponsors */}
-      <section id="learn" className="pt-3 pb-2 px-3 bg-dark text-light">
+      <section id="learn" className="pt-3 pb-2 px-3 bg-light text-dark">
         <div className="container">
           <h2 style={{ textAlign: "center" }}> <span style={{
             backgroundImage: `linear-gradient(
@@ -41,7 +41,7 @@ export default function Partners() {
 
 
       {/* silver sponsors */}
-      <section id="learn" className="pt-3 pb-2 px-3 bg-dark text-light">
+      <section id="learn" className="pt-3 pb-2 px-3 bg-light text-dark">
         <div className="container">
           <h2 style={{ textAlign: "center" }}> <span style={{
             backgroundImage: `linear-gradient(
@@ -257,7 +257,7 @@ export default function Partners() {
         </section>
 
       {/* partners */}
-      <section id="learn" className="pt-3 px-3 bg-white text-dark">
+      <section id="learn" className="pt-3 px-3 bg-light text-dark">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <h2 style={{ textAlign: "center" }}> <span> PARTNERS</span> </h2>
