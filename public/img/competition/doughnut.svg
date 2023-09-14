@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#9BC1AB;}
+	.st2{fill:#6A8D56;}
+	.st3{fill:#2F524F;}
+	.st4{fill:#95BC89;}
+	.st5{fill:#4D8178;}
+	.st6{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st7{font-family:'NHaasGroteskTXPro-55Rg';}
+	.st8{font-size:50.967px;}
+	.st9{font-size:20.3701px;}
+	.st10{fill:none;}
+</style>
+<g id="Layer_1">
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M500,296.6c-112.3,0-203.4,91-203.4,203.4s91,203.4,203.4,203.4s203.4-91,203.4-203.4
+				S612.3,296.6,500,296.6z M500,665.6c-91.4,0-165.6-74.1-165.6-165.6S408.6,334.4,500,334.4S665.6,408.6,665.6,500
+				S591.4,665.6,500,665.6z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g>
+			<g class="st0">
+				<g>
+					<g>
+						<path class="st1" d="M500,499.7H291.8c0-115,93.2-208.2,208.2-208.2l0,0V499.7z"/>
+					</g>
+				</g>
+				<g>
+					<g>
+						<path class="st2" d="M500,499.7l-64.3,198c-87.5-28.4-143.8-106-143.8-198H500z"/>
+					</g>
+				</g>
+				<g>
+					<g>
+						<path class="st3" d="M500,499.7l122.4,168.4c-55.8,40.5-121.1,50.9-186.7,29.6L500,499.7z"/>
+					</g>
+				</g>
+				<g>
+					<g>
+						<path class="st4" d="M500,499.7l168.4-122.4c67.6,93,47,223.2-46.1,290.8l0,0L500,499.7z"/>
+					</g>
+				</g>
+				<g>
+					<g>
+						<path class="st5" d="M500,499.7V291.5c69,0,127.9,30,168.4,85.8L500,499.7z"/>
+					</g>
+				</g>
+			</g>
+			<g class="st0">
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+	<line class="st6" x1="588" y1="300.9" x2="621.3" y2="267.6"/>
+	<line class="st6" x1="307.7" y1="307.7" x2="341" y2="341"/>
+	<line class="st6" x1="554.9" y1="764.9" x2="544.1" y2="715.1"/>
+	<line class="st6" x1="716.7" y1="526.4" x2="761.6" y2="540.7"/>
+	<text transform="matrix(1 0 0 1 631.4659 257.4331)" class="st7 st8">15%</text>
+	<text transform="matrix(1 0 0 1 773.4606 561.8342)" class="st7 st8">25%</text>
+	<text transform="matrix(1 0 0 1 631.4664 284.245)" class="st7 st9">Business Model &amp; Industry</text>
+	<text transform="matrix(1 0 0 1 206.9227 297.506)" class="st7 st8">15%</text>
+	<rect y="228" class="st10" width="302.2" height="47.2"/>
+	<text transform="matrix(1 0 0 1 9.2311 245.7612)" class="st7 st9">Communication &amp; Presentation</text>
+	<text transform="matrix(1 0 0 1 549.4763 814.9946)" class="st7 st8">15%</text>
+	<text transform="matrix(1 0 0 1 549.4767 841.8065)" class="st7 st9">Impact thesis</text>
+	<line class="st6" x1="312.4" y1="699.5" x2="349.7" y2="662.2"/>
+	<text transform="matrix(1 0 0 1 192.4273 734.4087)" class="st7 st8">20%</text>
+	<text transform="matrix(1 0 0 1 176.0494 761.2206)" class="st7 st9">Impact thesis</text>
+	<text transform="matrix(1 0 0 1 773.4614 593.6548)"><tspan x="0" y="0" class="st7 st9">Investment thesis </tspan><tspan x="0" y="24.4" class="st7 st9">including risk factors</tspan><tspan x="0" y="48.9" class="st7 st9">and mitigants</tspan></text>
+</g>
+</svg>
