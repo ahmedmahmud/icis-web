@@ -15,12 +15,12 @@ export default function Team() {
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
-                src="img/ryan.jpg"
+                src="img/team/Lasen.jpg"
                 className="rounded-circle mb-3 profile-pic"
                 alt=""
               />
-              <h3 className="card-title mb-3">Ryan Ling</h3>
-              <h6 className="card-subtitle">Co - President</h6>
+              <h3 className="card-title mb-3">Lasen Wanni Arachchige</h3>
+              <h6 className="card-subtitle">President</h6>
               <hr />
             </div>
           </div>
@@ -30,12 +30,12 @@ export default function Team() {
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
-                src="img/george.jpg"
+                src="img/team/Krish.jpg"
                 className="rounded-circle mb-3 profile-pic"
                 alt=""
               />
-              <h3 className="card-title mb-3">George Spencer</h3>
-              <h6 className="card-subtitle">Co - President</h6>
+              <h3 className="card-title mb-3">Krish Nigam</h3>
+              <h6 className="card-subtitle">Secretary</h6>
               <hr />
             </div>
           </div>
@@ -45,11 +45,11 @@ export default function Team() {
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
-                src="img/alex.jpg"
+                src="img/team/Meera.jpg"
                 className="rounded-circle mb-3 profile-pic"
                 alt=""
               />
-              <h3 className="card-title mb-3">Alex Chen Hu</h3>
+              <h3 className="card-title mb-3">Meera</h3>
               <h6 className="card-subtitle">Co - Treasurer</h6>
               <hr />
             </div>
@@ -60,11 +60,11 @@ export default function Team() {
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
-                src="img/avi.jpg"
+                src="img/team/Mukund.jpg"
                 className="rounded-circle mb-3 profile-pic"
                 alt=""
               />
-              <h3 className="card-title mb-3">Avi Aggarwal</h3>
+              <h3 className="card-title mb-3">Mukund Verma</h3>
               <h6 className="card-subtitle">Co - Treasurer</h6>
               <hr />
             </div>
@@ -75,13 +75,13 @@ export default function Team() {
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
-                src="img/manuel.jpg"
+                src="img/team/Namia.jpg"
                 className="rounded-circle mb-3 profile-pic"
                 alt=""
               />
-              <h3 className="card-title mb-3">Manuel Louro Coelho</h3>
+              <h3 className="card-title mb-3">Namia Raby</h3>
               <h6 className="card-subtitle">
-                Head of Sell-Side Corporate Relations
+                Co - Head of Sell-Side Corporate Relations
               </h6>
               <hr />
             </div>
@@ -92,13 +92,13 @@ export default function Team() {
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
-                src="img/mihnea.jpg"
+                src="img/team/Cameron.jpg"
                 className="rounded-circle mb-3 profile-pic"
                 alt=""
               />
-              <h3 className="card-title mb-3">Mihnea Bucur</h3>
+              <h3 className="card-title mb-3">Cameron Briginshaw</h3>
               <h6 className="card-subtitle">
-                Head of Buy-Side Corporate Relations
+                Co-Head of Portfolio Management & Buyside Corporate Relations
               </h6>
               <hr />
             </div>
@@ -109,12 +109,14 @@ export default function Team() {
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
-                src="img/nicholas.jpg"
+                src="img/team/Theo.jpeg"
                 className="rounded-circle mb-3 profile-pic"
                 alt=""
               />
-              <h3 className="card-title mb-3">Nicholas Kwok</h3>
-              <h6 className="card-subtitle">Secretary</h6>
+              <h3 className="card-title mb-3">Theo Sze</h3>
+              <h6 className="card-subtitle">
+                Co-Head of Portfolio Management & Buyside Corporate Relations
+              </h6>
               <hr />
             </div>
           </div>
@@ -124,12 +126,12 @@ export default function Team() {
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
-                src="img/lasen.jpg"
+                src="img/team/Adam.jpg"
                 className="rounded-circle mb-3 profile-pic"
                 alt=""
               />
-              <h3 className="card-title mb-3">Lasen Wanni Arachchige</h3>
-              <h6 className="card-subtitle">Head of Events &#38; Marketing</h6>
+              <h3 className="card-title mb-3">Adam Snelling</h3>
+              <h6 className="card-subtitle">SEC Lead Lecturer</h6>
               <hr />
             </div>
           </div>
@@ -139,12 +141,12 @@ export default function Team() {
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
-                src="img/harry.jpg"
+                src="img/team/Jamie.png"
                 className="rounded-circle mb-3 profile-pic"
                 alt=""
               />
-              <h3 className="card-title mb-3">Harry Schlote</h3>
-              <h6 className="card-subtitle">Head of Editorial</h6>
+              <h3 className="card-title mb-3">Jamie Shing Him Ho</h3>
+              <h6 className="card-subtitle">Head of Macro Team</h6>
               <hr />
             </div>
           </div>
@@ -154,12 +156,12 @@ export default function Team() {
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
-                src="img/yiwen.jpg"
+                src="img/team/Mihnea.jpeg"
                 className="rounded-circle mb-3 profile-pic"
                 alt=""
               />
-              <h3 className="card-title mb-3">Yiwen Xia</h3>
-              <h6 className="card-subtitle">Head of Technology Development</h6>
+              <h3 className="card-title mb-3">Mihnea Bucur</h3>
+              <h6 className="card-subtitle">Head of Diversity &#38; Inclusivity</h6>
               <hr />
             </div>
           </div>
@@ -169,18 +171,33 @@ export default function Team() {
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
-                src="img/jiya.jpg"
+                src="img/team/Jaiditya.jpg"
                 className="rounded-circle mb-3 profile-pic"
                 alt=""
               />
-              <h3 className="card-title mb-3">Jiya Kizhakkekattil</h3>
-              <h6 className="card-subtitle">Head of Diversity &#38; Inclusivity</h6>
+              <h3 className="card-title mb-3">Jaiditya Khemani</h3>
+              <h6 className="card-subtitle">Co - Head of Technology Development</h6>
               <hr />
             </div>
           </div>
         </div>
         {/* Item 12 */}
         <div className="col-md-6 col-lg-3">
+          <div className="card bg-light">
+            <div className="card-body text-center">
+              <img
+                src="img/team/Ahmed.jpeg"
+                className="rounded-circle mb-3 profile-pic"
+                alt=""
+              />
+              <h3 className="card-title mb-3">Ahmed Mahmud</h3>
+              <h6 className="card-subtitle">Co - Head of Technology Development</h6>
+              <hr />
+            </div>
+          </div>
+        </div>
+        {/* Item 13 */}
+       {/*{ <div className="col-md-6 col-lg-3">
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
@@ -193,9 +210,9 @@ export default function Team() {
               <hr />
             </div>
           </div>
-        </div>
-        {/* Item 13 */}
-        <div className="col-md-6 col-lg-3">
+        </div>*/}
+        {/* Item 14 */}
+        {/*<div className="col-md-6 col-lg-3">
           <div className="card bg-light">
             <div className="card-body text-center">
               <img
@@ -208,7 +225,7 @@ export default function Team() {
               <hr />
             </div>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );
