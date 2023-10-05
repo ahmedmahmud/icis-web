@@ -43,7 +43,7 @@ export default function Partners() {
             <div className="col-md mb-3 mb-md-0">
               <br><br>
               <h3>Fidelity International</h3>
-              <p className="lead">Fidelity International is a global asset manager which offers industry leading investment management services across the asset class spectrum  </p>
+              <p className="lead">Fidelity International is a global asset manager which offers industry leading investment management services across the asset class spectrum. </p>
               <p className="lead">The firm has over $4 trillion in AUM. </p>
               
               <div>
