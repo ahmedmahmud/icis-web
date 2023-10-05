@@ -16,6 +16,7 @@ export default function Partners() {
                 #cb9b51 78%,
                 #462523 100%
                 )`,
+      
             color: "transparent",
             WebkitBackgroundClip: "text", backgroundClip: "text"
           }}> GOLD SPONSORS</span> </h2>
@@ -33,6 +34,24 @@ export default function Partners() {
             <div className="col-md mb-3 mb-md-0">
               <div className="col-md-6 offset-md-4 my-auto text-center">
                 <img className="mx-auto d-block" alt="Responsive image" src="img/partners/deshaw.png" width="50%" />
+              </div>
+            </div>
+          </div>
+          
+          {/*Fidelity*/}
+            <div className="row align-items-center justify-content-between">
+            <div className="col-md mb-3 mb-md-0">
+              <h3>Fidelity International</h3>
+              <p className="lead">Fidelity International is a global asset manager which offers industry leading investment management services across the asset class spectrum  </p>
+              <p className="lead">The firm has over $4 trillion in AUM. </p>
+              
+              <div>
+                <a href="https://www.fidelity.co.uk/" className="btn btn-primary btn-sm"><i className="bi bi-chevron-right"></i> LEARN MORE</a>&nbsp;&nbsp;&nbsp;&nbsp;
+              </div>
+            </div>
+            <div className="col-md mb-3 mb-md-0">
+              <div className="col-md-6 offset-md-4 my-auto text-center">
+                <img className="mx-auto d-block" alt="Responsive image" src="img/partners/fidelity.png" width="50%" />
               </div>
             </div>
           </div>
