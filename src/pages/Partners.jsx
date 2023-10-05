@@ -41,6 +41,7 @@ export default function Partners() {
           {/*Fidelity*/}
             <div className="row align-items-center justify-content-between">
             <div className="col-md mb-3 mb-md-0">
+              <br><br>
               <h3>Fidelity International</h3>
               <p className="lead">Fidelity International is a global asset manager which offers industry leading investment management services across the asset class spectrum  </p>
               <p className="lead">The firm has over $4 trillion in AUM. </p>
@@ -51,7 +52,7 @@ export default function Partners() {
             </div>
             <div className="col-md mb-3 mb-md-0">
               <div className="col-md-6 offset-md-4 my-auto text-center">
-                <img className="mx-auto d-block" alt="Responsive image" src="img/partners/fidelity.png" width="50%" />
+                <img className="mx-auto d-block" alt="Responsive image" src="img/partners/Fidelity.png" width="50%" />
               </div>
             </div>
           </div>
