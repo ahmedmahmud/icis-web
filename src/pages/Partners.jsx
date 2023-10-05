@@ -16,17 +16,17 @@ export default function Partners() {
                 #cb9b51 78%,
                 #462523 100%
                 )`,
-      
+
             color: "transparent",
             WebkitBackgroundClip: "text", backgroundClip: "text"
           }}> GOLD SPONSORS</span> </h2>
           <div className="row align-items-center justify-content-between">
             <div className="col-md mb-3 mb-md-0">
               <h3>The D. E. Shaw group</h3>
-              <p className="lead">The D. E. Shaw group is a multinational hedge fund utilising advanced mathematics and 
-              sophisticated algorithms to produce market beating returns.  </p>
+              <p className="lead">The D. E. Shaw group is a multinational hedge fund utilising advanced mathematics and
+                sophisticated algorithms to produce market beating returns.  </p>
               <p className="lead">The firm manages $55 billion and invests across alternative investments and long-oriented investments. </p>
-              
+
               <div>
                 <a href="https://www.deshaw.com/" className="btn btn-primary btn-sm"><i className="bi bi-chevron-right"></i> LEARN MORE</a>&nbsp;&nbsp;&nbsp;&nbsp;
               </div>
@@ -37,15 +37,14 @@ export default function Partners() {
               </div>
             </div>
           </div>
-          
+
           {/*Fidelity*/}
-            <div className="row align-items-center justify-content-between">
+          <div className="row align-items-center justify-content-between mt-5">
             <div className="col-md mb-3 mb-md-0">
-              <br><br>
               <h3>Fidelity International</h3>
               <p className="lead">Fidelity International is a global asset manager which offers industry leading investment management services across the asset class spectrum. </p>
               <p className="lead">The firm has over $4 trillion in AUM. </p>
-              
+
               <div>
                 <a href="https://www.fidelity.co.uk/" className="btn btn-primary btn-sm"><i className="bi bi-chevron-right"></i> LEARN MORE</a>&nbsp;&nbsp;&nbsp;&nbsp;
               </div>
@@ -80,20 +79,20 @@ export default function Partners() {
           <div className="row align-items-center justify-content-between">
             <div className="col-md mb-3 mb-md-0">
               <h3>Money Maze</h3>
-              <p className="lead">Established in 2020 by two finance industry veterans, the Money Maze Podcast features some of 
-              the biggest names in investment management, finance & business.  </p>
-              <p className="lead">Through direct, entertaining and insightful interviews with masters of the real life money maze, 
-              it aims to help listeners learn about the different approaches to allocating capital and better navigate the pitfalls 
-              that line the path to prosperity. </p>
-              <p className="lead">Whether you're a current or aspiring investor, entrepreneur, professional or student exploring career options, 
-              we hope you gain some helpful insights and enjoy the show. </p>
-              <p className="lead">To listen, search 'Money Maze Podcast' on any major podcast app or YouTube. 
-              You can also find out more via www.moneymazepodcast.com.  </p>
+              <p className="lead">Established in 2020 by two finance industry veterans, the Money Maze Podcast features some of
+                the biggest names in investment management, finance & business.  </p>
+              <p className="lead">Through direct, entertaining and insightful interviews with masters of the real life money maze,
+                it aims to help listeners learn about the different approaches to allocating capital and better navigate the pitfalls
+                that line the path to prosperity. </p>
+              <p className="lead">Whether you're a current or aspiring investor, entrepreneur, professional or student exploring career options,
+                we hope you gain some helpful insights and enjoy the show. </p>
+              <p className="lead">To listen, search 'Money Maze Podcast' on any major podcast app or YouTube.
+                You can also find out more via www.moneymazepodcast.com.  </p>
               <div>
                 <a href="https://open.spotify.com/show/0uT0iw8BkDIvFH12Z3GJKR" className="btn btn-primary btn-sm"><i className="bi bi-chevron-right"></i> Spotify</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="https://podcasts.apple.com/gb/podcast/the-money-maze-podcast/id1504477769" className="btn btn-primary btn-sm"><i className="bi bi-chevron-right"></i> Apple Podcasts</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="https://www.youtube.com/watch?v=9SStZiLZ-KQ&ab_channel=MoneyMazePodcast" className="btn btn-primary btn-sm"><i className="bi bi-chevron-right"></i> Introduction Video</a>
-                
+
               </div>
             </div>
             <div className="col-md mb-3 mb-md-0">
@@ -109,11 +108,11 @@ export default function Partners() {
       {/* other sponsors */}
       <section id="learn" className="pt-3 px-3 pb-2 bg-light text-dark">
         <div className="container">
-        <h2 style={{ textAlign: "center" }}> <span> OTHER SPONSORS</span> </h2>
+          <h2 style={{ textAlign: "center" }}> <span> OTHER SPONSORS</span> </h2>
           {/*Temasek*/}
           <div className="row align-items-center justify-content-between">
             <div className="col-md mb-3 mb-md-0">
-            <h3>Temasek</h3>
+              <h3>Temasek</h3>
               <p className="lead">Incorporated in 1974, Temasek is an investment company headquartered in Singapore. It is supported
                 by 13 offices globally across 9 countries including the UK (London). </p>
               <p className="lead">As an active investor and engaged owner, Temasek aims to deliver sustainable value over the long
@@ -238,30 +237,30 @@ export default function Partners() {
             <div className="col-md mb-2 mb-md-0">
               <p className="lead"> <strong>Can we help you next? For a no obligation, free consultation, contact Richard directly via
         email at richard@careerships.com or WhatsApp at <p>+44 7498 210461.</p>   </strong></p>*/}
-              </div>
             </div>
           </div>
+        </div>
       </section>
 
       {/*EY*/}
       <section id="learn" className="pt-3 px-3 pb-2 bg-light text-dark">
         <div className="container">
-      <div className="row align-items-center justify-content-between">
+          <div className="row align-items-center justify-content-between">
             <div className="col-md mb-3 mb-md-0">
-            <h3>EY-Parthenon</h3>
-              <p className="lead">EY-Parthenon is a global strategy consultancy. We challenge assumptions to design and deliver strategies 
-              that help improve profitability and long-term value. We have more than 9,000 professionals around the globe, 
-              working across three areas of focus:  </p>
-              <p className="lead">1.	Corporate & growth strategy: We help our clients answer their most complex strategic questions by 
-              providing in-depth market, competitor, customer and investment insights. We help our clients bring these recommendations 
-              to life in collaboration with the broad implementation capabilities of the wider EY firm. </p>
-              <p className="lead">2.	Transaction strategy & execution: We help our clients realise their full potential through fast-tracked, 
-              better-informed decisions across the whole investment lifecycle. We are complete business advisors combining operations, 
-              technology, cyber and software strategy skillsets.</p>
-              <p className="lead">3.	Turnaround & restructuring strategy: Whether a business is in crisis or is simply facing an operational challenge, 
-              this team is experienced in helping identify and prioritise the most critical issues, stabilize the business, establish a leadership 
-              and stakeholder consensus around the solution and deliver tangible results quickly.</p>
-              
+              <h3>EY-Parthenon</h3>
+              <p className="lead">EY-Parthenon is a global strategy consultancy. We challenge assumptions to design and deliver strategies
+                that help improve profitability and long-term value. We have more than 9,000 professionals around the globe,
+                working across three areas of focus:  </p>
+              <p className="lead">1.	Corporate & growth strategy: We help our clients answer their most complex strategic questions by
+                providing in-depth market, competitor, customer and investment insights. We help our clients bring these recommendations
+                to life in collaboration with the broad implementation capabilities of the wider EY firm. </p>
+              <p className="lead">2.	Transaction strategy & execution: We help our clients realise their full potential through fast-tracked,
+                better-informed decisions across the whole investment lifecycle. We are complete business advisors combining operations,
+                technology, cyber and software strategy skillsets.</p>
+              <p className="lead">3.	Turnaround & restructuring strategy: Whether a business is in crisis or is simply facing an operational challenge,
+                this team is experienced in helping identify and prioritise the most critical issues, stabilize the business, establish a leadership
+                and stakeholder consensus around the solution and deliver tangible results quickly.</p>
+
               <p className="lead">For more information about EY-Parthenon  please click on the button below.</p>
               <div>
                 <a href="https://www.ey.com/en_uk/careers/parthenon/join" className="btn btn-primary btn-sm"><i className="bi bi-chevron-right"></i> LEARN MORE</a>
@@ -274,7 +273,7 @@ export default function Partners() {
             </div>
           </div>
         </div>
-        </section>
+      </section>
 
       {/* partners */}
       <section id="learn" className="pt-3 px-3 bg-light text-dark">
