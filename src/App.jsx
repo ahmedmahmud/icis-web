@@ -1,8 +1,9 @@
 import React from "react";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import Home from "./pages/home";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import BasicLayout from "./layouts/basic-layout";
+import { ThemeProvider } from "./components/theme-provider";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -18,9 +19,9 @@ const App = () => {
   ]);
 
   return (
-    <div className="App">
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <RouterProvider router={router} />
-    </div>
+    </ThemeProvider>
   );
 };
 
