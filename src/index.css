@@ -1,150 +1,81 @@
-.bg-p {
-  background-color: #223361;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@media (min-width: 768px) {
-  .news-input {
-    width: 50%;
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
   }
 }
 
-@media (max-width: 768px) {
-  .lead {
-    font-size: 1rem;
+@layer base {
+  * {
+    @apply border-border;
   }
 
-  #type-logo {
-    font-size: 0.75rem;
-  }
-
-  .navbar-toggler-icon {
-    font-size: 0.5em;
-  }
-
-  .evaluation_donut {
-    max-width: 150%;
+  body {
+    @apply bg-background text-foreground;
   }
 }
 
-#type-logo {
-  font-family: forma-djr-deck;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.profile-pic {
-  width: 128px;
-  height: 128px;
-  object-fit: cover;
-}
-
-.map-container {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}
-
-.hori-timeline .events {
-  border-top: 3px solid #e9ecef;
-  border-bottom: 3px solid #e9ecef;
-}
-
-.hori-timeline .events .event-list {
-  display: block;
-  position: relative;
-  text-align: center;
-  padding-top: 70px;
-  margin-right: 0;
-}
-
-.hori-timeline .events .event-list:before {
-  content: "";
-  position: absolute;
-  height: 36px;
-  border-right: 2px dashed #dee2e6;
-  top: 0;
-}
-
-.hori-timeline .events .event-list .event-date {
-  position: absolute;
-  top: 38px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  margin: 0 auto;
-}
-
-@media (min-width: 1200px) {
-  .hori-timeline .events .event-list {
-    width: 20%;
-    padding-top: 45px;
-  }
-
-  .hori-timeline .events .event-list .event-date {
-    top: -12px;
-  }
-
-  .hori-timeline .events {
-    border-bottom: 0;
-  }
-}
-
-.bg-soft-primary {
-  background-color: #4090cb !important;
-}
-
-.bg-soft-success {
-  background-color: #47bd9a !important;
-}
-
-.bg-soft-danger {
-  background-color: #e74c5e !important;
-}
-
-.bg-soft-warning {
-  background-color: #f9d570 !important;
-}
-
-.card {
-  border: none;
-  margin-bottom: 24px;
-}
-
-.event-date-text {
-  margin-bottom: 0;
-  border-radius: 4px;
-  padding: 2px 4px;
-}
-
-.img-fluid {
-  align: center;
-}
-
-.temasek {
-  display: block;
-}
-
-.careerships,
-.temasek {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.careerships {
-  display: inline;
-}
-
-.flex-container {
-  display: flex;
-  flex-flow: column-wrap;
-  justify-content: space-around;
-}
-
-.evaluation_donut {
-  width: 30%;
-  height: auto;
-}
-
-.col-md .img-vector {
-  height: 200px;
+.hero-image {
+  background-image: url("./hero.jpg");
 }
