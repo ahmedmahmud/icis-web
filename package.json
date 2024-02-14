@@ -13,6 +13,8 @@
     "format:write": "biome format . --write"
   },
   "dependencies": {
+    "@fontsource-variable/inter": "^5.0.16",
+    "@fontsource/merriweather": "^5.0.8",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",

@@ -7,7 +7,7 @@ export default function SpecialButton() {
       className={classes.button_container}
       href="https://www.imperialcollegeunion.org/activities/a-to-z/investment"
     >
-      <div className={classes.button}>Free Membership</div>
+      <div className={classes.button}>Join for Free</div>
       <div className={classes.button_bg_grad} />
     </a>
   );

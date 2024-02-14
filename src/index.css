@@ -75,6 +75,10 @@
     @apply bg-background text-foreground;
   }
 }
+/* 
+body {
+  font-family: 'Inter Variable', sans-serif;
+} */
 
 .hero-image {
   background-image: url("/hero.jpg");

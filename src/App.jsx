@@ -13,12 +13,12 @@ import { ThemeProvider } from "./components/theme-provider";
 const App = () => {
   const router = createBrowserRouter([
     {
+      path: "/",
+      element: <Home />,
+    },
+    {
       element: <BasicLayout />,
       children: [
-        {
-          path: "/",
-          element: <Home />,
-        },
         {
           path: "/team",
           element: <Team />,
