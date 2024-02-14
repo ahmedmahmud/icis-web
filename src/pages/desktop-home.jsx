@@ -20,7 +20,7 @@ const DesktopHome = () => {
             <br />
             <span className="font-bold">
               Imperial College <br />
-              Investment Scoiety
+              Investment Society
             </span>
           </h1>
           <p className="text-md lg:text-lg mb-4 tracking-tighter">
