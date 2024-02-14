@@ -16,27 +16,27 @@ const App = () => {
       element: <BasicLayout />,
       children: [
         {
-          path: '/',
+          path: "/",
           element: <Home />,
         },
         {
-          path: '/team',
+          path: "/team",
           element: <Team />,
         },
         {
-          path: '/partners',
+          path: "/partners",
           element: <Partners />,
         },
         {
-          path: 'sec',
+          path: "sec",
           element: <Sec />,
         },
         {
-          path: 'qtcapital',
+          path: "qtcapital",
           element: <QTCaptial />,
-        }
-      ]
-    }
+        },
+      ],
+    },
   ]);
 
   return (

@@ -4,13 +4,13 @@ import { Outlet } from "react-router-dom";
 import { SiteFooter } from "@/components/ui/site-footer";
 
 const BasicLayout = () => {
-    return (
-        <>
-            <SiteHeader />
-            <Outlet />
-            <SiteFooter />
-        </>
-    );
-}
+  return (
+    <>
+      <SiteHeader />
+      <Outlet />
+      <SiteFooter />
+    </>
+  );
+};
 
-export default BasicLayout
+export default BasicLayout;

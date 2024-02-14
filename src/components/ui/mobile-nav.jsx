@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import { NavLink } from "react-router-dom"
+import * as React from "react";
+import { NavLink } from "react-router-dom";
 
-import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
 
 export function MobileNav() {
   return (
@@ -55,73 +55,77 @@ export function MobileNav() {
       <DropdownMenuContent className="w-56">
         <NavLink
           to="/"
-          className={({ isActive }) => cn(
-            "transition-colors hover:text-foreground/80",
-            isActive ? "text-foreground" : "text-foreground/60"
-          )}
+          className={({ isActive }) =>
+            cn(
+              "transition-colors hover:text-foreground/80",
+              isActive ? "text-foreground" : "text-foreground/60",
+            )
+          }
         >
           <DropdownMenuItem>Home</DropdownMenuItem>
         </NavLink>
         <NavLink
           to="/team"
-          className={({ isActive }) => cn(
-            "transition-colors hover:text-foreground/80",
-            isActive ? "text-foreground" : "text-foreground/60"
-          )}
+          className={({ isActive }) =>
+            cn(
+              "transition-colors hover:text-foreground/80",
+              isActive ? "text-foreground" : "text-foreground/60",
+            )
+          }
         >
           <DropdownMenuItem>Team</DropdownMenuItem>
         </NavLink>
         <NavLink
           to="/partners"
-          className={({ isActive }) => cn(
-            "transition-colors hover:text-foreground/80",
-            isActive ? "text-foreground" : "text-foreground/60"
-          )}
+          className={({ isActive }) =>
+            cn(
+              "transition-colors hover:text-foreground/80",
+              isActive ? "text-foreground" : "text-foreground/60",
+            )
+          }
         >
           <DropdownMenuItem>Partners</DropdownMenuItem>
         </NavLink>
         <NavLink
           to="/sec"
-          className={({ isActive }) => cn(
-            "transition-colors hover:text-foreground/80",
-            isActive ? "text-foreground" : "text-foreground/60"
-          )}
+          className={({ isActive }) =>
+            cn(
+              "transition-colors hover:text-foreground/80",
+              isActive ? "text-foreground" : "text-foreground/60",
+            )
+          }
         >
           <DropdownMenuItem>SEC</DropdownMenuItem>
         </NavLink>
         <NavLink
           to="/qtcapital"
-          className={({ isActive }) => cn(
-            "transition-colors hover:text-foreground/80",
-            isActive ? "text-foreground" : "text-foreground/60"
-          )}
+          className={({ isActive }) =>
+            cn(
+              "transition-colors hover:text-foreground/80",
+              isActive ? "text-foreground" : "text-foreground/60",
+            )
+          }
         >
           <DropdownMenuItem>QT Capital</DropdownMenuItem>
         </NavLink>
       </DropdownMenuContent>
     </DropdownMenu>
-  )
+  );
 }
 
-function MobileLink({
-  href,
-  onOpenChange,
-  className,
-  children,
-  ...props
-}) {
-  const router = useRouter()
+function MobileLink({ href, onOpenChange, className, children, ...props }) {
+  const router = useRouter();
   return (
     <Link
       href={href}
       onClick={() => {
-        router.push(href.toString())
-        onOpenChange?.(false)
+        router.push(href.toString());
+        onOpenChange?.(false);
       }}
       className={cn(className)}
       {...props}
     >
       {children}
     </Link>
-  )
+  );
 }
