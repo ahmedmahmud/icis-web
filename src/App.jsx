@@ -3,6 +3,10 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import Home from "./pages/home";
 import Team from "./pages/team";
+import Partners from "./pages/partners";
+import Sec from "./pages/sec";
+import QTCaptial from "./pages/qtcapital";
+
 import BasicLayout from "./layouts/basic-layout";
 import { ThemeProvider } from "./components/theme-provider";
 
@@ -19,6 +23,18 @@ const App = () => {
           path: '/team',
           element: <Team />,
         },
+        {
+          path: '/partners',
+          element: <Partners />,
+        },
+        {
+          path: 'sec',
+          element: <Sec />,
+        },
+        {
+          path: 'qtcapital',
+          element: <QTCaptial />,
+        }
       ]
     }
   ]);
