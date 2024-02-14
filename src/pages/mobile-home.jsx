@@ -6,7 +6,6 @@ import {
   InstagramLogoIcon,
   FramerLogoIcon,
 } from "@radix-ui/react-icons";
-import Spline from "@splinetool/react-spline";
 
 const MobileHome = () => {
   return (

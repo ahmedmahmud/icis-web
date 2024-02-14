@@ -18,15 +18,15 @@ export function HeroHeader() {
         </Link>
       </div>
 
-      <nav className="flex items-center gap-6 text-md uppercase tracking-tighter backdrop-blur py-2 px-4 rounded-xl drop-shadow-2xl">
+      <nav className="flex items-center gap-6 uppercase text-sm font-semibold tracking-tighter py-2 px-4 rounded-xl backdrop-blur-sm drop-shadow-2xl">
         {navLinks.map((link) => (
           <NavLink
             key={link}
             to={link.to}
             className={({ isActive }) =>
               cn(
-                "transition-all hover:text-foreground/80 hover:font-medium hover:tracking-widest",
-                isActive ? "text-foreground" : "text-foreground/60",
+                "transition-all hover:text-foreground/80 hover:font-bold hover:tracking-normal",
+                isActive ? "text-foreground" : "text-foreground/80",
               )
             }
           >
