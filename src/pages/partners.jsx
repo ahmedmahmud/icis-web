@@ -105,8 +105,8 @@ export default function Partners() {
               Gold
             </h3>
           </div>
-          {sponsors.goldSponsors.map((sponsor, index) => (
-            <PartnerCard key={index} sponsor={sponsor} />
+          {sponsors.goldSponsors.map((sponsor) => (
+            <PartnerCard key={sponsor.name} sponsor={sponsor} />
           ))}
         </div>
         <div className="space-y-8">
@@ -115,8 +115,8 @@ export default function Partners() {
               Silver
             </h3>
           </div>
-          {sponsors.silverSponsors.map((sponsor, index) => (
-            <PartnerCard key={index} sponsor={sponsor} />
+          {sponsors.silverSponsors.map((sponsor) => (
+            <PartnerCard key={sponsor.name} sponsor={sponsor} />
           ))}
         </div>
         <div className="space-y-8">
@@ -125,8 +125,8 @@ export default function Partners() {
               Other
             </h3>
           </div>
-          {sponsors.otherSponsors.map((sponsor, index) => (
-            <PartnerCard key={index} sponsor={sponsor} />
+          {sponsors.otherSponsors.map((sponsor) => (
+            <PartnerCard key={sponsor.name} sponsor={sponsor} />
           ))}
         </div>
         <div className="space-y-8">
@@ -135,8 +135,8 @@ export default function Partners() {
               Partners
             </h3>
           </div>
-          {sponsors.partners.map((sponsor, index) => (
-            <PartnerCard key={index} sponsor={sponsor} />
+          {sponsors.partners.map((sponsor) => (
+            <PartnerCard key={sponsor.name} sponsor={sponsor} />
           ))}
         </div>
       </div>
