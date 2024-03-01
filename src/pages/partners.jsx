@@ -79,8 +79,16 @@ const sponsors = {
         "ChineseAlpha is an equity research platform that demystifies listed Chinese companies by providing in-depth, quality research.",
         "Its goal is to become the ultimate reference for research and coverage of Chinese equity markets with the purpose of allowing global investors to make accurate and informed investment decisions.",
       ],
-      website: "",
+      website: "https://www.chinesealpha.com/",
       image: "img/partners/CA_logo.svg",
+    },
+    {
+      name: "TradingView",
+      description: [
+        "TradingView is a social media network, analysis platform and mobile app for traders and investors. The company was founded in 2011 and has offices in New York and London. As at 2020, the company ranks in the top 130 websites globally according to Alexa."
+      ],
+      website: "https://www.tradingview.com",
+      image: "img/partners/TV-3.svg",
     },
   ],
 };

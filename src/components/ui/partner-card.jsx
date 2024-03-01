@@ -23,14 +23,18 @@ export default function PartnerCard({ sponsor }) {
           <div className="gap-2 flex pt-4">
             {sponsor.buttons ? (
               sponsor.buttons.map(({ text, link }) => (
-                <Button href={link} variant="secondary" size="sm">
+                <a href={link}>
+                <Button variant="secondary" size="sm">
                   {text}
                 </Button>
+                </a>
               ))
             ) : (
-              <Button href={sponsor.website} variant="secondary" size="sm">
-                Learn more
-              </Button>
+              <a href={sponsor.website}>
+                <Button  variant="secondary" size="sm">
+                  Learn more
+                </Button>
+              </a>
             )}
           </div>
         </div>
