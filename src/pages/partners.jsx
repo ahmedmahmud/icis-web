@@ -74,6 +74,14 @@ const sponsors = {
   ],
   partners: [
     {
+      name: "TradingView",
+      description: [
+        "TradingView is a social media network, analysis platform and mobile app for traders and investors. The company was founded in 2011 and has offices in New York and London. As at 2020, the company ranks in the top 130 websites globally according to Alexa.",
+      ],
+      website: "https://www.tradingview.com",
+      image: "img/partners/TV-3.svg",
+    },
+    {
       name: "ChineseAlpha",
       description: [
         "ChineseAlpha is an equity research platform that demystifies listed Chinese companies by providing in-depth, quality research.",
@@ -81,14 +89,6 @@ const sponsors = {
       ],
       website: "https://www.chinesealpha.com/",
       image: "img/partners/CA_logo.svg",
-    },
-    {
-      name: "TradingView",
-      description: [
-        "TradingView is a social media network, analysis platform and mobile app for traders and investors. The company was founded in 2011 and has offices in New York and London. As at 2020, the company ranks in the top 130 websites globally according to Alexa.",
-      ],
-      website: "https://www.tradingview.com",
-      image: "img/partners/TV-3.svg",
     },
   ],
 };

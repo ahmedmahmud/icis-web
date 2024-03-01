@@ -24,10 +24,9 @@ const MobileHome = () => {
             </span>
           </h1>
           <p className="text-md mb-4 tracking-tighter">
-            A society with the purpose of increasing our members'
-            exposure to the investment industry. We are Imperial
-            College's fastest growing society, with more than 1300
-            members in our community.
+            A society with the purpose of increasing our members' exposure to
+            the investment industry. We are Imperial College's fastest growing
+            society, with more than 1300 members in our community.
           </p>
           <div className="flex gap-4 mb-8">
             <Button

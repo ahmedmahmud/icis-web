@@ -14,7 +14,11 @@ export function HeroHeader() {
     <header className="absolute top-0 z-50 w-full flex items-center px-8 lg:px-24 xl:px-48 py-4 md:py-8">
       <div className="flex-1">
         <Link href="/">
-          <img src="/logo-transparent.png" alt="logo" className="h-10 md:h-12" />
+          <img
+            src="/logo-transparent.png"
+            alt="logo"
+            className="h-10 md:h-12"
+          />
         </Link>
       </div>
 
