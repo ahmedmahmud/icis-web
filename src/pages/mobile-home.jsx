@@ -6,14 +6,16 @@ import {
   InstagramLogoIcon,
   FramerLogoIcon,
 } from "@radix-ui/react-icons";
+import { HeroHeader } from "@/components/ui/hero-header";
 
 const MobileHome = () => {
   return (
     <div className="relative min-h-screen flex items-center">
+      <HeroHeader />
       <div className="absolute inset-0 bg-cover bg-center hero-image" />
-      <div className="z-10 flex justify-between items-center flex-1 px-24 pr-48">
+      <div className="z-10 flex justify-between items-center flex-1 px-8">
         <div className="">
-          <h1 className="text-4xl mb-8 tracking-tight">
+          <h1 className="text-4xl mb-8 tracking-tight font-serif font-light">
             Welcome to
             <br />
             <span className="font-bold">
@@ -21,10 +23,10 @@ const MobileHome = () => {
               Investment Scoiety
             </span>
           </h1>
-          <p className="text-lg mb-4 tracking-tighter">
-            A society with the purpose of increasing our members' <br />
-            exposure to the investment industry. We are Imperial <br />
-            College's fastest growing society, with more than 1300 <br />
+          <p className="text-md mb-4 tracking-tighter">
+            A society with the purpose of increasing our members'
+            exposure to the investment industry. We are Imperial
+            College's fastest growing society, with more than 1300
             members in our community.
           </p>
           <div className="flex gap-4 mb-8">

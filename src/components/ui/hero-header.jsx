@@ -11,14 +11,14 @@ const navLinks = [
 
 export function HeroHeader() {
   return (
-    <header className="absolute top-0 z-50 w-full flex items-center px-12 lg:px-24 xl:px-48 py-8">
+    <header className="absolute top-0 z-50 w-full flex items-center px-8 lg:px-24 xl:px-48 py-4 md:py-8">
       <div className="flex-1">
         <Link href="/">
-          <img src="/logo-transparent.png" alt="logo" className="h-12" />
+          <img src="/logo-transparent.png" alt="logo" className="h-10 md:h-12" />
         </Link>
       </div>
 
-      <nav className="flex items-center gap-6 uppercase text-sm font-semibold tracking-tighter py-2 px-4 rounded-xl backdrop-blur-sm drop-shadow-2xl">
+      <nav className="flex items-center gap-4 md:gap-6 md:uppercase text-sm font-semibold tracking-tighter py-2 px-4 md:py-2 md:px-4 rounded-xl backdrop-blur-sm md:drop-shadow-2xl">
         {navLinks.map((link) => (
           <NavLink
             key={link}
