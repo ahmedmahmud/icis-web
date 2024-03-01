@@ -24,14 +24,14 @@ export default function PartnerCard({ sponsor }) {
             {sponsor.buttons ? (
               sponsor.buttons.map(({ text, link }) => (
                 <a href={link}>
-                <Button variant="secondary" size="sm">
-                  {text}
-                </Button>
+                  <Button variant="secondary" size="sm">
+                    {text}
+                  </Button>
                 </a>
               ))
             ) : (
               <a href={sponsor.website}>
-                <Button  variant="secondary" size="sm">
+                <Button variant="secondary" size="sm">
                   Learn more
                 </Button>
               </a>
