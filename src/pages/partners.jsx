@@ -93,56 +93,44 @@ const sponsors = {
   ],
 };
 
+const Subtitle = (props) => (
+  <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-silver">
+    {props.children}
+  </h3>
+);
+
 export default function Partners() {
   return (
-    <div className="grid w-full min-h-[600px] items-center justify-center py-12 gap-4 md:py-24 lg:gap-10">
-      <div className="container grid max-w-5xl items-start gap-4 px-4 md:grid-cols-2 md:px-6 lg:gap-8">
-        <div className="space-y-2 md:space-y-3">
+    <div className="grid w-full justify-center px-4 py-24 space-y-4 lg:space-y-10">
+      <div className="max-w-5xl space-y-10 lg:space-y-10 md:px-6">
+        <div className="space-y-1 md:space-y-2">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Our Partners
           </h1>
           <p className="text-gray-500 dark:text-gray-400">
-            Description of the partners.
+            Helping fuel our vision for the future
           </p>
         </div>
-      </div>
-      <div className="container max-w-5xl grid items-start gap-6 px-4 md:px-6 lg:gap-8">
-        <div className="space-y-8">
-          <div className="space-y-2">
-            <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-gold">
-              Gold
-            </h3>
-          </div>
+        <div className="space-y-4">
+          <Subtitle className="text-gold">Gold</Subtitle>
           {sponsors.goldSponsors.map((sponsor) => (
             <PartnerCard key={sponsor.name} sponsor={sponsor} />
           ))}
         </div>
-        <div className="space-y-8">
-          <div className="space-y-2">
-            <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-silver">
-              Silver
-            </h3>
-          </div>
+        <div className="space-y-4">
+          <Subtitle className="text-silver">Silver</Subtitle>
           {sponsors.silverSponsors.map((sponsor) => (
             <PartnerCard key={sponsor.name} sponsor={sponsor} />
           ))}
         </div>
-        <div className="space-y-8">
-          <div className="space-y-2">
-            <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-bronze">
-              Other
-            </h3>
-          </div>
+        <div className="space-y-4">
+          <Subtitle className="text-bronze">Other</Subtitle>
           {sponsors.otherSponsors.map((sponsor) => (
             <PartnerCard key={sponsor.name} sponsor={sponsor} />
           ))}
         </div>
-        <div className="space-y-8">
-          <div className="space-y-2">
-            <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-bronze">
-              Partners
-            </h3>
-          </div>
+        <div className="space-y-4">
+          <Subtitle className="text-bronze">Partners</Subtitle>
           {sponsors.partners.map((sponsor) => (
             <PartnerCard key={sponsor.name} sponsor={sponsor} />
           ))}

@@ -7,12 +7,12 @@ export function SiteHeader() {
   return (
     // bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60
     <header className="absolute top-0 z-50 w-full">
-      <div className="container flex h-14 max-w-screen-2xl items-center">
+      <div className="px-4 sm:container min-h-14 flex max-w-screen-2xl items-center">
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <span className="inline-block">
-              <span className="font-bold">Investment Society</span> Imperial
-              College London
+            <span className="inline-block py-2">
+              <span className="font-bold">Investment Society</span>{" "}
+              <br className="sm:hidden" /> Imperial College London
             </span>
           </Link>
         </div>
