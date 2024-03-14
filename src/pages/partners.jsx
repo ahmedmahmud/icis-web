@@ -76,7 +76,8 @@ const sponsors = {
     {
       name: "TradingView",
       description: [
-        "TradingView is a social media network, analysis platform and mobile app for traders and investors. The company was founded in 2011 and has offices in New York and London. As at 2020, the company ranks in the top 130 websites globally according to Alexa.",
+        "TradingView is a social media network, analysis platform and mobile app for traders and investors allowing to track stock market movers, build advanced chart, read latest financial news, and more. The company was founded in 2011 and has offices in New York and London. As at 2024, the company ranks as number 1 investing website according to SimilarWeb.",
+        "The partnership will undoubtedly contribute to the growth and success of QT Capital, fostering a more enriched learning environment for our students fund analysts.",
       ],
       website: "https://www.tradingview.com",
       image: "img/partners/TV-3.svg",
@@ -112,6 +113,12 @@ export default function Partners() {
           </p>
         </div>
         <div className="space-y-4">
+          <Subtitle className="text-bronze">Partners</Subtitle>
+          {sponsors.partners.map((sponsor) => (
+            <PartnerCard key={sponsor.name} sponsor={sponsor} />
+          ))}
+        </div>
+        <div className="space-y-4">
           <Subtitle className="text-gold">Gold</Subtitle>
           {sponsors.goldSponsors.map((sponsor) => (
             <PartnerCard key={sponsor.name} sponsor={sponsor} />
@@ -126,12 +133,6 @@ export default function Partners() {
         <div className="space-y-4">
           <Subtitle className="text-bronze">Other</Subtitle>
           {sponsors.otherSponsors.map((sponsor) => (
-            <PartnerCard key={sponsor.name} sponsor={sponsor} />
-          ))}
-        </div>
-        <div className="space-y-4">
-          <Subtitle className="text-bronze">Partners</Subtitle>
-          {sponsors.partners.map((sponsor) => (
             <PartnerCard key={sponsor.name} sponsor={sponsor} />
           ))}
         </div>
