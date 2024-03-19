@@ -76,7 +76,7 @@ const sponsors = {
     {
       name: "TradingView",
       description: [
-        "TradingView is a social media network, analysis platform and mobile app for traders and investors allowing to track stock market movers, build advanced chart, read latest financial news, and more. The company was founded in 2011 and has offices in New York and London. As at 2024, the company ranks as number 1 investing website according to SimilarWeb.",
+        "TradingView is a social media network, analysis platform and mobile app for traders and investors allowing to track <a class='underline text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://www.tradingview.com/markets/stocks-usa/market-movers-all-stocks/'>stock market movers</a>, build advanced chart, read latest financial news, and more. The company was founded in 2011 and has offices in New York and London. As at 2024, the company ranks as number 1 investing website according to SimilarWeb.",
         "The partnership will undoubtedly contribute to the growth and success of QT Capital, fostering a more enriched learning environment for our students fund analysts.",
       ],
       website: "https://www.tradingview.com",

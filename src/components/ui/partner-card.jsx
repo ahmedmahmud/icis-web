@@ -17,7 +17,7 @@ export default function PartnerCard({ sponsor }) {
           <h4 className="text-xl font-bold">{sponsor.name}</h4>
           <div className="text-sm space-y-2 text-gray-500 dark:text-gray-400">
             {sponsor.description.map((description) => (
-              <p key={description}>{description}</p>
+              <p key={description} dangerouslySetInnerHTML={{ __html: description }}></p>
             ))}
           </div>
           <div className="gap-2 flex pt-4">
