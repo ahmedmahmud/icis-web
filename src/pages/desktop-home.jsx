@@ -6,6 +6,7 @@ import {
   InstagramLogoIcon,
   FramerLogoIcon,
 } from "@radix-ui/react-icons";
+import {https://www.instagram.com/ic.investmentsociety/ } from "react-router-dom";
 import Spline from "@splinetool/react-spline";
 import { HeroHeader } from "@/components/ui/hero-header";
 
@@ -30,27 +31,35 @@ const DesktopHome = () => {
             members in our community.
           </p>
           <div className="flex gap-4 mb-8">
-            <Button
-              variant="ghost"
-              size="icon"
-              className="bg-transparent backdrop-blur"
-            >
-              <FramerLogoIcon className="h-4 w-4" />
-            </Button>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="bg-transparent backdrop-blur"
-            >
-              <InstagramLogoIcon className="h-4 w-4" />
-            </Button>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="bg-transparent backdrop-blur"
-            >
-              <LinkedInLogoIcon className="h-4 w-4" />
-            </Button>
+            <a href="https://www.framer.com" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="bg-transparent backdrop-blur"
+              >
+                <FramerLogoIcon className="h-4 w-4" />
+              </Button>
+            </a>
+
+            <a href="https://www.instagram.com/ic.investmentsociety/" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="bg-transparent backdrop-blur"
+              >
+                <InstagramLogoIcon className="h-4 w-4" />
+              </Button>
+            </a>
+
+            <a href="https://www.linkedin.com/company/ic-investment/?originalSubdomain=uk" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="bg-transparent backdrop-blur"
+              >
+                <LinkedInLogoIcon className="h-4 w-4" />
+              </Button>
+            </a>
           </div>
           <SpecialButton />
         </div>
