@@ -67,7 +67,18 @@ const DesktopHome = () => {
           <Spline scene="https://prod.spline.design/ZQA7i5juxgFUwWGf/scene.splinecode" />
         </div>
       </div>
-    </div>
+    
+    {/* Contact Information Section */}
+    <footer className="bg-gray-900 text-white py-8 px-10 lg:px-24 xl:px-48">
+      <div className="flex flex-col items-center">
+        <p className="text-lg mb-2">Contact Us</p>
+        <p className="mb-2">Email: info@icinvestmentsociety.com</p>
+        <p className="mb-2">Address: Imperial College London, South Kensington, London, SW7 2AZ, UK</p>
+      </div>
+  </footer>
+</div>
+
+
   );
 };
 
