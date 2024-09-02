@@ -83,3 +83,8 @@ body {
 .hero-image {
   background-image: url("/hero.jpg");
 }
+
+a::before,
+a::after {
+    content: " ";
+}
