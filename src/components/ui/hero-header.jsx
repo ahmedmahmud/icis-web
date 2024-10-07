@@ -2,7 +2,6 @@ import { Link, NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { to: "/team", text: "Team" },
   { to: "/partners", text: "Partners" },
   { to: "/newsletter", text: "Newsletter" },
   { to: "/overview", text: "Events", subLinks: [

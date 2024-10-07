@@ -131,9 +131,3 @@ button:focus {
   flex: 1; /* Allows items to grow and shrink as needed */
   min-width: 0; /* Ensures the items shrink below their minimum width if necessary */
 }
-
-
-a::before,
-a::after {
-    content: " ";
-}
