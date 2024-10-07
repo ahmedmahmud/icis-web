@@ -20,7 +20,7 @@ const MobileHome = () => {
             <br />
             <span className="font-bold">
               Imperial College <br />
-              Investment Scoiety
+              Investment Society
             </span>
           </h1>
           <p className="text-md mb-4 tracking-tighter">

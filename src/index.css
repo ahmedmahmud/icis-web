@@ -1,6 +1,10 @@
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 @layer base {
   :root {
@@ -87,4 +91,43 @@ body {
 a::before,
 a::after {
     content: " ";
+}
+
+.fade-in-text {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+/* styles.css */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  color: #gray; /* Or any color to indicate hover */
+}
+
+button:focus {
+  outline: 2px solid #blue; /* Or any color for focus */
+}
+
+
+/* src/index.css */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap if there's not enough space */
+  gap: 16px; /* Adds spacing between items */
+}
+
+.flex-item {
+  flex: 1; /* Allows items to grow and shrink as needed */
+  min-width: 0; /* Ensures the items shrink below their minimum width if necessary */
 }

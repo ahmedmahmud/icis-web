@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import SpecialButton from "@/components/ui/special-button";
 import { Button } from "@/components/ui/button";
 import {
@@ -8,16 +8,18 @@ import {
 } from "@radix-ui/react-icons";
 import Spline from "@splinetool/react-spline";
 import { HeroHeader } from "@/components/ui/hero-header";
-import TopgradLogo from "@/public/topgrad_uk_logo.jpeg"; 
-
+import TopgradLogo from "@/public/topgrad_uk_logo.jpeg";
 
 const DesktopHome = () => {
+  // State to control visibility of the popup
+  
+
   return (
-    <div className="flex min-h-screen items-center hero-image bg-cover">
+    <div className="flex flex-col min-h-screen items-left hero-image bg-cover z-index-3">
       <HeroHeader />
-      <div className="z-10 flex justify-between items-center flex-1 px-10 lg:px-24 xl:px-48">
-        <div>
-          <h1 className="text-4xl mb-8 tracking-tight font-serif font-light">
+      <div className="my-20 z-30 flex items-end content-between flex-1 px-10 lg:px-24 xl:px-48">
+        <div className="mb-8">
+          <h1 className="my-40 text-4xl mb-8 tracking-tight font-serif font-light fade-in-text">
             Welcome to
             <br />
             <span className="font-bold">
@@ -64,38 +66,24 @@ const DesktopHome = () => {
           </div>
           <SpecialButton />
         </div>
-        <div className="w-72 h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96">
-          <Spline scene="https://prod.spline.design/ZQA7i5juxgFUwWGf/scene.splinecode" />
-        </div>
-      </div>
-    
-      <div className="px-10 lg:px-24 xl:px-48 mb-8">
-        <div>
-          <h2 className="text-3xl mb-4 tracking-tight font-serif font-light">
-            Recent Achievement
-          </h2>
-          <p className="text-md lg:text-lg mb-4 tracking-tighter">
-            We are proud to announce that the Imperial College Investment Society 
-            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7036712096104902656/" target="_blank" rel="noopener noreferrer" className="text-md lg:text-lg mb-4 tracking-tighter underline">
-               was voted the Best Business and Finance Society
-            </a>
-            in the UK by Topgrad for the academic year 2022-2023. Thank you to all our members for their support and dedication!
-          </p>
-          <img src={TopgradLogo} alt="Topgrad Logo" className="w-32 h-auto mt-4" />
+        <div className="w-72 h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 mb-8 ml-12 lg:ml-30 xl:ml-24">
+          {/* <Spline scene="https://prod.spline.design/ZQA7i5juxgFUwWGf/scene.splinecode" /> */}
         </div>
       </div>
 
-    {/* Contact Information Section */}
-    <footer className="bg-gray-900 text-white py-8 px-10 lg:px-24 xl:px-48">
+     
+
+      {/* Contact Information Section */}
+      <footer className="text-white py-8 px-10 lg:px-24 xl:px-48">
         <div className="flex flex-col items-center">
           <p className="text-lg mb-2">Contact Us</p>
           <p className="mb-2">Email: info@icinvestmentsociety.com</p>
-          <p className="mb-2">Address: Imperial College London, South Kensington, London, SW7 2AZ, UK</p>
+          <p className="mb-2">
+            Address: Imperial College London, South Kensington, London, SW7 2AZ, UK
+          </p>
         </div>
       </footer>
     </div>
-
-
   );
 };
 
