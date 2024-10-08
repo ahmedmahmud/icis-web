@@ -4,7 +4,7 @@ export function SiteFooter() {
   return (
     <div style={{ backgroundColor: '#1abc9c' }}>
       <footer
-        className="w-full flex flex-col min-h-screen left-0 right-0 text-center p-4"
+        className="w-full flex flex-col text-center p-4 pb-10"
         style={{ backgroundColor: '#020817' }}
       >
         <p className="text-lg mb-2">Contact Us</p>
