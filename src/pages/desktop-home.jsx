@@ -8,7 +8,6 @@ import {
 } from "@radix-ui/react-icons";
 import Spline from "@splinetool/react-spline";
 import { HeroHeader } from "@/components/ui/hero-header";
-import TopgradLogo from "@/public/topgrad_uk_logo.jpeg";
 
 const DesktopHome = () => {
   // State to control visibility of the popup
