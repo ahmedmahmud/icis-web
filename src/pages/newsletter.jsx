@@ -7,7 +7,7 @@ export default function Newsletter() {
         Find all of this year's newsletters below:
       </h2>
 
-      <div className="ps-10 my-10 mx-10 text-md font-semibold mb-8 font-serif font-light fade-in-text text-gray-500 dark:text-gray-400">
+      <div className="ps-10 pb-20 my-30 mx-10 text-md font-semibold mb-8 font-serif font-light fade-in-text text-gray-500 dark:text-gray-400">
 
       <a href="src\components\ui\Newletter-08092024.pdf">
         8th September 2024
