@@ -6,7 +6,7 @@ export default function QTCapital() {
       <section className="pt-4 px-3 bg-dark text-light">
         <div className="container">
           <div className="flex flex-col sm:flex-row items-center justify-between">
-            <div className="sm:w-2/3 p-md-2 pt-1">
+            <div className="sm:w-2/3 p-md-2 pt-1 pb-10">
               <h2 className="font-bold text-4xl md:text-3xl py-8">
                 {" "}
                 INTRO TO QUEENS TOWER CAPITAL{" "}
@@ -16,9 +16,16 @@ export default function QTCapital() {
               is Imperial’s student-run, global multi-asset fund. The fund leverages the technical expertise present in Imperial to generate novel insights, and its alumni network to ensure that practices reflect those at the top investment institutions. 
 
             Led by the investment officers, the fund’s research analysts will pitch their best investment ideas on a weekly basis (@ Tuesday 6pm, Huxley 311). 
-
               </p>
-              <p className="text-lg py-6"> Applications opening soon!</p>
+
+              {/* Add button here */}
+              <a
+                href="https://forms.office.com/pages/responsepage.aspx?id=B3WJK4zudUWDC0-CZ8PTBxxMg2rXPKFFlt_Cr51ibFVURFRPVDNVM1A5NTVVRlcyOEdBTUcyWENLNCQlQCN0PWcu&route=shorturl"
+                className="inline-block mt-4 px-6 py-2 bg-blue-800 text-white font-semibold rounded py-5 hover:bg-blue-900"
+              >
+                Apply here
+              </a>
+
             </div>
             <div className="sm:w-1/3 mb-1">
               <img
@@ -170,3 +177,4 @@ export default function QTCapital() {
     </div>
   );
 }
+
