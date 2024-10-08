@@ -7,19 +7,18 @@ export default function QTCapital() {
         <div className="container">
           <div className="flex flex-col sm:flex-row items-center justify-between">
             <div className="sm:w-2/3 p-md-2 pt-1">
-              <h2 className="font-bold text-2xl md:text-3xl">
+              <h2 className="font-bold text-4xl md:text-3xl py-8">
                 {" "}
                 INTRO TO QUEENS TOWER CAPITAL{" "}
               </h2>
               <p className="text-lg">
-                Queen’s Tower Capital is the undergraduate student run
-                investment fund under Imperial College Investment Society. The
-                fund is designed to give students a taster of the world of
-                institutional investing. Led by the investment officers, the
-                fund’s research analysts will pitch their best investment ideas
-                on a weekly basis (@ Tuesday 6pm, Huxley 311).
+              Queen’s Tower Capital 
+              is Imperial’s student-run, global multi-asset fund. The fund leverages the technical expertise present in Imperial to generate novel insights, and its alumni network to ensure that practices reflect those at the top investment institutions. 
+
+            Led by the investment officers, the fund’s research analysts will pitch their best investment ideas on a weekly basis (@ Tuesday 6pm, Huxley 311). 
+
               </p>
-              <p className="text-lg"> Application is now closed.</p>
+              <p className="text-lg py-6"> Applications opening soon!</p>
             </div>
             <div className="sm:w-1/3 mb-1">
               <img
@@ -67,7 +66,7 @@ export default function QTCapital() {
             <h2 className="font-bold text-2xl md:text-3xl">Team</h2>
             <div className="text-lg">
               {/* Equity Team */}
-              <p className="text-xl">Equity Team</p>
+              <p className="text-xl py-6">Equity Team</p>
               <p>
                 Our equities team consists of sector heads and analysts working
                 in tandem to fundamentally value stocks in the following
@@ -83,7 +82,7 @@ export default function QTCapital() {
                 <li>Financials</li>
               </ul>
               <p>This comprises of 4 main roles:</p>
-              <ol className="list-decimal pl-6">
+              <ol className="list-decimal pl-6 py-4">
                 <li>
                   Alumni Advisory Committee
                   <p>
@@ -123,14 +122,14 @@ export default function QTCapital() {
                 </li>
               </ol>
               <p>
-                We are currently recruiting for the roles of Sector Heads and
+                We will be recruiting for the roles of Sector Heads and
                 Analysts.
               </p>
               {/* Systematic Trading and Quantitative Research Team */}
-              <p className="text-xl">
+              <p className="font-bold text-2xl pt-5 py-5">
                 Systematic Trading and Quantitative Research Team
               </p>
-              <p className="text-lg">Systematic Trading Team</p>
+              <p className="font-bold text-lg">Systematic Trading Team</p>
               <p>
                 The Systematic Fund seeks to develop and maintain momentum-based
                 strategies that are back tested and run virtually using the
@@ -150,20 +149,20 @@ export default function QTCapital() {
                 analysts with additional information about relative performances
                 of stocks.
               </p>
-              <p className="text-lg">Quantitative Research Team</p>
+              <p className="text-lg font-bold pt-4">Quantitative Research Team</p>
               <p>
                 The Quantitative Research group aims to provide analysts with
                 the opportunity to conduct research and discuss financial market
                 microstructure phenomena.
               </p>
-              <p>Potential areas of interest for further study include:</p>
-              <ul className="list-disc pl-6">
+              <p className="text-lg pt-6">Potential areas of interest for further study include:</p>
+              <ul className="list-disc pl-8 py-2">
                 <li>Designing optimal execution algorithms</li>
                 <li>Analysing market impact for different types of orders</li>
                 <li>Calculating limit order fill probabilities</li>
                 <li>Intraday volatility modelling</li>
               </ul>
-              <p>We are currently recruiting for the roles in both teams.</p>
+              <p className='pb-6 pt-5'>We will be recruiting for the roles in both teams.</p>
             </div>
           </div>
         </div>
