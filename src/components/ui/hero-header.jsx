@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { to: "/partners", text: "Partners" },
+  { to: "/team", text: "Team"},
   { to: "/newsletter", text: "Newsletter" },
   { to: "/overview", text: "Events", subLinks: [
     { to: "/sec", text: "SEC" },

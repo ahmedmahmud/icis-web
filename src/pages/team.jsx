@@ -8,82 +8,68 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import {
-  LinkedInLogoIcon,
-  InstagramLogoIcon,
-  FramerLogoIcon,
-} from "@radix-ui/react-icons";
+import { LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 const team = [
-
   {
-    name: "Krish Nigam",
-    role: "Secretary",
-    image: "img/team/Krish.jpg",
-    link: "https://www.linkedin.com/feed/",
+    name: "Ruben Berstecher",
+    role: "Head of Diversity and Inclusivity",
+    image: "img/team/Ruben Berstecher.jpg",
+    link: "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFRMlqB6BLOXQAAAZJwwPmgU7ndXbkFJvgfi2HD3u16UjaXIWkdSgntUKdvkis5wWbmAtMrEQ69f8aXJoG8aaTOQtyRCHUGMvg9R4lk4iKa2Cpcii24qSqQURfWlZAwWfXNylM=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frpbd%2F",
   },
   {
-    name: "Meera",
-    role: "Co - Treasurer",
-    image: "img/team/Meera.jpg",
-    link: "https://www.linkedin.com/feed/",
+    name: "Dmitriy Trofimenko",
+    role: "Treasurer",
+    image: "img/team/Dmitriy Trofimenko.jpg",
+    link: "https://www.linkedin.com/in/dmitriy-trofimenko-/",
   },
   {
-    name: "Mukund Verma",
-    role: "Co - Treasurer",
-    image: "img/team/Mukund.jpg",
-    link: "https://www.linkedin.com/feed/",
+    name: "Keith Poon",
+    role: "Head of Editorial",
+    image: "img/team/Keith Poon.png",
+    link: "https://www.linkedin.com/in/keith-poon-730390227/",
   },
   {
-    name: "Namia Raby",
-    role: "Co - Head of Sell-Side Corporate Relations",
-    image: "img/team/Namia.jpg",
-    link: "https://www.linkedin.com/feed/",
+    name: "Elyse Wu",
+    role: "Head of Sell-Side Corporate Realtions",
+    image: "img/team/Elyse Wu.jpg",
+    link: "https://www.linkedin.com/in/elyse-zhi-qing-wu-05651b1ba/",
   },
   {
-    name: "Cameron Briginshaw",
-    role: "Co-Head of Portfolio Management & Buyside Corporate Relations",
-    image: "img/team/Cameron.jpg",
-    link: "https://www.linkedin.com/feed/",
+    name: "Alqavi Hasan",
+    role: "Head of Marketing",
+    image: "img/team/Alqavi Hasan.jpg",
+    link: "https://www.linkedin.com/in/alqavi",
   },
   {
-    name: "Theo Sze",
-    role: "Co-Head of Portfolio Management & Buyside Corporate Relations",
-    image: "img/team/Theo.jpeg",
-    link: "https://www.linkedin.com/feed/",
+    name: "Felix Schneider",
+    role: "Head of Events",
+    image: "img/team/Felix Schneider.jpg",
+    link: "https://www.linkedin.com/in/felix-schneider00",
   },
   {
-    name: "Adam Snelling",
-    role: "SEC Lead Lecturer",
-    image: "img/team/Adam.jpg",
-    link: "https://www.linkedin.com/feed/",
-
+    name: "Diane de Nonneville",
+    role: "Head of Technology Development",
+    image: "img/team/Diane de Nonneville.png",
+    link: "www.linkedin.com/in/diane-de-nonneville",
   },
   {
-    name: "Jamie Shing Him Ho",
-    role: "Head of Macro Team",
-    image: "img/team/Jamie.png",
-    link: "https://www.linkedin.com/feed/",
-
+    name: "Lim Chee Yuan",
+    role: "Head of Secretary",
+    image: "img/team/Lim Chee Yuan.jpg",
+    link: "https://www.linkedin.com/in/limcheeyuan/",
   },
   {
-    name: "Mihnea Bucur",
-    role: "Head of Diversity & Inclusivity",
-    image: "img/team/Mihnea.jpeg",
-    link: "https://www.linkedin.com/feed/",
-
+    name: "Nicholas Finnemore",
+    role: "Portfolio Manager",
+    image: "img/team/Nicholas Finnemore.png",
+    link: "https://uk.linkedin.com/in/nicholas-finnemore-353a671ba",
   },
   {
-    name: "Jaiditya Khemani",
-    role: "Co - Head of Technology Development",
-    image: "img/team/Jaiditya.jpg",
-    link: "https://www.linkedin.com/feed/",
-  },
-  {
-    name: "Ahmed Mahmud",
-    role: "Co - Head of Technology Development",
-    image: "img/team/Ahmed.jpeg",
-    link: "https://www.linkedin.com/feed/",
+    name: "Sophie Hoo",
+    role: "Co-Head of Buy-Side Relations",
+    image: "img/team/Sophie Hoo.jpg",
+    link: "https://www.linkedin.com/in/sophiehoo",
   },
 ];
 
@@ -91,24 +77,79 @@ const Team = () => {
   return (
     <>
       {/* President's Message Section */}
-      <div className="flex flex-col items-start mt-16 px-16">
-  <h2 className="text-4xl font-bold mb-4 my-20">President's Message</h2>
-  <h2 className="text-xl font-bold mb-4 my-5">Rebecca Fayad</h2>
+      <div className="flex flex-col md:flex-row items-start mt-16 px-16 gap-8">
+        <div className="w-full md:w-1/3">
+          <h2 className="text-4xl font-bold mb-4 my-20">President's Message</h2>
 
-  <div className="flex flex-col md:flex-row gap-8">
-    <img
-      src="img/team/Lasen.jpg"
-      alt="President"
-      className="w-full md:w-1/3 h-auto object-cover rounded-md"
-    />
-    <div className="max-w-lg flex-1">
-      <p className="text-lg">
-        
-      </p>
-    </div>
-  </div>
-</div>
-Something something something 
+          {/* President's name with LinkedIn icon as a button */}
+          <div className="flex items-center gap-2 mb-4 my-5">
+            <a
+              href="https://www.linkedin.com/in/rebecca-fayad"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                variant="ghost"
+                size="icon"
+                className="bg-transparent backdrop-blur p-0"
+              >
+                <LinkedInLogoIcon className="h-5 w-5 text-blue-600" />
+              </Button>
+            </a>
+            <h2 className="text-xl font-bold">Rebecca Fayad</h2>
+          </div>
+
+          <img
+            src="img/team/Rebecca Fayad.jpg"
+            alt="President"
+            className="w-full h-auto object-cover rounded-md"
+          />
+        </div>
+
+        <div className="flex-1 mt-16 space-y-6">
+          <p className="text-lg">
+            Welcome to the Imperial Investment Society, the #1 Business and Finance society in the UK 
+            (TopGrad 23 Ranking)! Whether you're a finance professional or just beginning your journey, 
+            our society offers a vibrant platform where ambition meets opportunity.
+          </p>
+          <p>
+            Our mission is to bridge the gap between academic theory and real-world financial practice. 
+            We provide our members with unmatched access to workshops, networking events, and industry 
+            professionals from top firms, equipping you with the tools to break into the industry. From 
+            portfolio management to career advice, we cover all aspects of finance and the application 
+            process, ensuring you acquire the skills and insights needed to excel—whether your goal is 
+            in finance or another field.
+          </p>
+          <p>
+            As the largest student society at Imperial, we take pride in fostering a diverse and inclusive 
+            environment. Our community thrives on collaboration, curiosity, and a shared passion for 
+            learning, consistently connecting with like-minded businesses and societies.
+          </p>
+          <p>
+            Join us this year as we continue to build our reputation, nurture emerging talent, and explore 
+            the exciting opportunities within the financial world. Whether you aim to deepen your 
+            understanding through our courses, such as the Securities Education Certificate (SEC), gain 
+            hands-on experience as an analyst in our Fund, Queen’s Tower Capital, or simply network at our 
+            events and learn from our weekly sessions, the Imperial Investment Society is here to support 
+            and guide you at every step.
+          </p>
+          <p>
+            We look forward to welcoming you to our society and working together to make this year our most 
+            successful yet! Your success is our commitment, and we are here to equip you with everything you 
+            need to secure your dream position.
+          </p>
+          <p>
+            To your success and beyond,
+          </p>
+          <blockquote className="italic border-l-4 pl-4 border-gray-300">
+            Rebecca Fayad,
+          </blockquote>
+          <blockquote className="italic border-l-4 pl-4 border-gray-300">
+            President, Imperial Investment Society
+          </blockquote>
+
+        </div>
+      </div>
 
       {/* Committee Section */}
       <div className="flex flex-col items-center mt-24 px-16">
@@ -154,5 +195,4 @@ Something something something
   );
 };
 
-    
 export default Team;
