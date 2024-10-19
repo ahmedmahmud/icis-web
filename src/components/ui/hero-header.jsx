@@ -2,14 +2,16 @@ import { Link, NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
+  { to: "", text: "Home" },
+  { to: "/team", text: "Team" },
   { to: "/partners", text: "Partners" },
-  { to: "/team", text: "Team"},
-  { to: "/newsletter", text: "Newsletter" },
   { to: "/overview", text: "Events", subLinks: [
     { to: "/sec", text: "SEC" },
-    { to: "/qtcapital", text: "QT Capital" }
-  ]}
+    { to: "/qtcapital", text: "QT Capital" },
+  ]},
+  { to: "/newsletter", text: "Newsletter" },
 ];
+
 
 export function HeroHeader() {
   return (

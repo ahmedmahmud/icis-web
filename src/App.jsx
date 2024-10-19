@@ -8,6 +8,7 @@ import Sec from "./pages/sec";
 import QTCaptial from "./pages/qtcapital";
 import Overview from "./pages/overview";
 import Newsletter from "./pages/newsletter";
+import Calendar from './pages/calendar';
 
 import BasicLayout from "./layouts/basic-layout";
 import { ThemeProvider } from "./components/theme-provider";
@@ -44,6 +45,10 @@ const App = () => {
         {
           path: "newsletter",
           element: <Newsletter />,
+        },
+        {
+          path: "calendar",
+          element: <Calendar />,
         },
       ],
     },

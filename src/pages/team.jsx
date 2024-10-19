@@ -71,85 +71,97 @@ const team = [
     image: "img/team/Sophie Hoo.jpg",
     link: "https://www.linkedin.com/in/sophiehoo",
   },
+  {
+    name: "Dinil Wanni Arachchige",
+    role: "Head of Portfolio Management",
+    image: "img/team/Dinil.jpg",
+    link: "https://uk.linkedin.com/in/dinil-wanni-arachchige-4221a7201",
+  },
+  {
+    name: "Benjamin Tan",
+    role: "Co-Head SEC Lecturer",
+    image: "img/team/Benjamin Tan.jpg",
+    link: "https://www.linkedin.com/in/benjamin-tan-09418b219/",
+  },
 ];
 
 const Team = () => {
   return (
     <>
-      {/* President's Message Section */}
-      <div className="flex flex-col md:flex-row items-start mt-16 px-16 gap-8">
-        <div className="w-full md:w-1/3">
-          <h2 className="text-4xl font-bold mb-4 my-20">President's Message</h2>
+<div className="flex flex-col md:flex-row items-start mt-24 px-16 py-20 gap-8">
+  <div className="w-full md:w-1/3">
+    <h2 className="text-4xl font-bold mb-4">President's Message</h2>
 
-          {/* President's name with LinkedIn icon as a button */}
-          <div className="flex items-center gap-2 mb-4 my-5">
-            <a
-              href="https://www.linkedin.com/in/rebecca-fayad"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button
-                variant="ghost"
-                size="icon"
-                className="bg-transparent backdrop-blur p-0"
-              >
-                <LinkedInLogoIcon className="h-5 w-5 text-blue-600" />
-              </Button>
-            </a>
-            <h2 className="text-xl font-bold">Rebecca Fayad</h2>
-          </div>
+    {/* President's name with LinkedIn icon as a button */}
+    <div className="flex items-center gap-2 mb-4">
+      <a
+        href="https://www.linkedin.com/in/rebecca-fayad"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button
+          variant="ghost"
+          size="icon"
+          className="bg-transparent backdrop-blur p-0"
+        >
+          <LinkedInLogoIcon className="h-5 w-5 text-blue-600" />
+        </Button>
+      </a>
+      <h2 className="text-xl font-bold">Rebecca Fayad</h2>
+    </div>
 
-          <img
-            src="img/team/Rebecca Fayad.jpg"
-            alt="President"
-            className="w-full h-auto object-cover rounded-md"
-          />
-        </div>
+    <img
+      src="img/team/Rebecca Fayad.jpg"
+      alt="President"
+      className="w-full h-auto object-cover rounded-md"
+    />
+  </div>
 
-        <div className="flex-1 mt-16 space-y-6">
-          <p className="text-lg">
-            Welcome to the Imperial Investment Society, the #1 Business and Finance society in the UK 
-            (TopGrad 23 Ranking)! Whether you're a finance professional or just beginning your journey, 
-            our society offers a vibrant platform where ambition meets opportunity.
-          </p>
-          <p>
-            Our mission is to bridge the gap between academic theory and real-world financial practice. 
-            We provide our members with unmatched access to workshops, networking events, and industry 
-            professionals from top firms, equipping you with the tools to break into the industry. From 
-            portfolio management to career advice, we cover all aspects of finance and the application 
-            process, ensuring you acquire the skills and insights needed to excel—whether your goal is 
-            in finance or another field.
-          </p>
-          <p>
-            As the largest student society at Imperial, we take pride in fostering a diverse and inclusive 
-            environment. Our community thrives on collaboration, curiosity, and a shared passion for 
-            learning, consistently connecting with like-minded businesses and societies.
-          </p>
-          <p>
-            Join us this year as we continue to build our reputation, nurture emerging talent, and explore 
-            the exciting opportunities within the financial world. Whether you aim to deepen your 
-            understanding through our courses, such as the Securities Education Certificate (SEC), gain 
-            hands-on experience as an analyst in our Fund, Queen’s Tower Capital, or simply network at our 
-            events and learn from our weekly sessions, the Imperial Investment Society is here to support 
-            and guide you at every step.
-          </p>
-          <p>
-            We look forward to welcoming you to our society and working together to make this year our most 
-            successful yet! Your success is our commitment, and we are here to equip you with everything you 
-            need to secure your dream position.
-          </p>
-          <p>
-            To your success and beyond,
-          </p>
-          <blockquote className="italic border-l-4 pl-4 border-gray-300">
-            Rebecca Fayad,
-          </blockquote>
-          <blockquote className="italic border-l-4 pl-4 border-gray-300">
-            President, Imperial Investment Society
-          </blockquote>
+  {/* Align text with image and add spacing between paragraphs */}
+  <div className="flex-1 self-start space-y-6">
+    <p className="text-xl leading-relaxed">
+      Welcome to the Imperial Investment Society, the #1 Business and Finance society in the UK 
+      (TopGrad 23 Ranking)! Whether you're a finance professional or just beginning your journey, 
+      our society offers a vibrant platform where ambition meets opportunity.
+    </p>
+    <p className="leading-relaxed">
+      Our mission is to bridge the gap between academic theory and real-world financial practice. 
+      We provide our members with unmatched access to workshops, networking events, and industry 
+      professionals from top firms, equipping you with the tools to break into the industry. From 
+      portfolio management to career advice, we cover all aspects of finance and the application 
+      process, ensuring you acquire the skills and insights needed to excel—whether your goal is 
+      in finance or another field.
+    </p>
+    <p className="leading-relaxed">
+      As the largest student society at Imperial, we take pride in fostering a diverse and inclusive 
+      environment. Our community thrives on collaboration, curiosity, and a shared passion for 
+      learning, consistently connecting with like-minded businesses and societies.
+    </p>
+    <p className="leading-relaxed">
+      Join us this year as we continue to build our reputation, nurture emerging talent, and explore 
+      the exciting opportunities within the financial world. Whether you aim to deepen your 
+      understanding through our courses, such as the Securities Education Certificate (SEC), gain 
+      hands-on experience as an analyst in our Fund, Queen’s Tower Capital, or simply network at our 
+      events and learn from our weekly sessions, the Imperial Investment Society is here to support 
+      and guide you at every step.
+    </p>
+    <p className="leading-relaxed">
+      We look forward to welcoming you to our society and working together to make this year our most 
+      successful yet! Your success is our commitment, and we are here to equip you with everything you 
+      need to secure your dream position.
+    </p>
+    <p className="leading-relaxed">To your success and beyond,</p>
 
-        </div>
-      </div>
+    <blockquote className="italic border-l-4 pl-4 border-gray-300">
+      Rebecca Fayad,
+    </blockquote>
+    <blockquote className="italic border-l-4 pl-4 border-gray-300">
+      President, Imperial Investment Society
+    </blockquote>
+  </div>
+</div>
+
+
 
       {/* Committee Section */}
       <div className="flex flex-col items-center mt-24 px-16">

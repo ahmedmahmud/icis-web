@@ -9,7 +9,7 @@ import {
 export default function Sec() {
   return (
     <div className="mt-16">
-      <section id="learn" className="py-4 pb-8 px-3 bg-dark text-light">
+      <section id="learn" className="py-4 pb-8 mt-16 px-3 bg-dark text-light">
         <div className="container">
           <div className="flex flex-col sm:flex-row items-center justify-between">
             <div className="sm:w-2/3 p-md-5 pt-2">
