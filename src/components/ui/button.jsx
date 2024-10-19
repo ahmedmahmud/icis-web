@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { cva } from "class-variance-authority";
+import { TreePalm } from "lucide-react"; // Import the TreePalm icon
 
 import { cn } from "@/lib/utils";
 
@@ -35,17 +36,33 @@ const buttonVariants = cva(
 );
 
 const Button = React.forwardRef(
-  ({ className, variant, size, asChild = false, ...props }, ref) => {
+  ({ className, variant, size, asChild = false, icon: Icon, ...props }, ref) => {
     const Comp = asChild ? Slot : "button";
     return (
       <Comp
         className={cn(buttonVariants({ variant, size, className }))}
         ref={ref}
         {...props}
-      />
+      >
+        {Icon && <Icon className="mr-2" />} {/* Render icon if provided */}
+        {props.children} {/* Render button text */}
+      </Comp>
     );
   },
 );
 Button.displayName = "Button";
 
-export { Button, buttonVariants };
+// Optionally, you can create a specific button for TreePalm if needed
+const TreePalmButton = React.forwardRef((props, ref) => (
+  <Button
+    ref={ref}
+    variant="ghost"
+    size="icon"
+    {...props}
+  >
+    <TreePalm size={16} color="#ffffff" />
+  </Button>
+));
+TreePalmButton.displayName = "TreePalmButton";
+
+export { Button, TreePalmButton, buttonVariants };

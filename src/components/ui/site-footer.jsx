@@ -8,7 +8,7 @@ export function SiteFooter() {
         style={{ backgroundColor: '#020817' }}
       >
         <p className="text-lg mb-2">Contact Us</p>
-        <p className="mb-2">Email: info@icinvestmentsociety.com</p>
+        <p className="mb-2">Email: icis15@ic.ac.uk         </p>
         <p className="mb-2">
           Address: Imperial College London, South Kensington, London, SW7 2AZ,
           UK

@@ -6,6 +6,7 @@ import {
   InstagramLogoIcon,
   FramerLogoIcon,
 } from "@radix-ui/react-icons";
+import { TreePalm } from "lucide-react"; // Import the TreePalm icon
 
 import Spline from "@splinetool/react-spline";
 import { HeroHeader } from "@/components/ui/hero-header";
@@ -24,7 +25,7 @@ const DesktopHome = () => {
         <HeroHeader />
         <div className="my-20 flex items-end content-between flex-1 px-10 lg:px-24 xl:px-48 bg-cover bg-center">
           <div className="mb-8 text-white "> {/* Ensure text is visible over the image */}
-            <h1 className="my-40 text-4xl mb-8 tracking-tight font-serif font-light fade-in-text">
+            <h1 className="my-40 text-4xl mb-8 tracking-tight font-serif font-bold fade-in-text">
               Welcome to
               <br />
               <span className="font-bold">
@@ -39,21 +40,12 @@ const DesktopHome = () => {
               members in our community.
             </p>
             <div className="flex gap-4 mb-8">
-              <a href="https://www.framer.com" target="_blank" rel="noopener noreferrer">
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="bg-transparent backdrop-blur"
-                >
-                  <FramerLogoIcon className="h-4 w-4" />
-                </Button>
-              </a>
+
 
               <a href="https://www.instagram.com/ic.investmentsociety/" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="bg-transparent backdrop-blur"
                 >
                   <InstagramLogoIcon className="h-4 w-4" />
                 </Button>
@@ -63,9 +55,18 @@ const DesktopHome = () => {
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="bg-transparent backdrop-blur"
                 >
                   <LinkedInLogoIcon className="h-4 w-4" />
+                </Button>
+              </a>
+
+              {/* TreePalm icon button */}
+              <a href="https://linktr.ee/ic.investmentsociety" target="_blank" rel="noopener noreferrer">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                >
+                  <TreePalm size={16} color="#ffffff" />
                 </Button>
               </a>
             </div>
@@ -75,7 +76,7 @@ const DesktopHome = () => {
       </div>
 
       {/* New Section for Team Picture */}
-      <section className="bg-cover py-8"> {/* or use bg-navy if defined */}
+      <section className="bg-cover py-8">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Our Team</h2>
           <p className="text-lg text-white mb-6">
@@ -94,7 +95,7 @@ const DesktopHome = () => {
       <footer className="text-white py-8 px-10 lg:px-24 xl:px-48">
         <div className="flex flex-col items-center">
           <p className="text-lg mb-2">Contact Us</p>
-          <p className="mb-2">Email: info@icinvestmentsociety.com</p>
+          <p className="mb-2">Email: icis15@ic.ac.uk</p>
           <p className="mb-2">
             Address: Imperial College London, South Kensington, London, SW7 2AZ, UK
           </p>

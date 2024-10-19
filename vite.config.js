@@ -9,4 +9,11 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    port: 3000, // Customize port if needed
+  },
+  build: {
+    outDir: 'dist', // Customize output directory if needed
+    // Add other build options here
+  },
 });
