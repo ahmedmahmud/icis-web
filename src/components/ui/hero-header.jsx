@@ -9,7 +9,7 @@ const navLinks = [
     { to: "/sec", text: "SEC" },
     { to: "/qtcapital", text: "QT Capital" },
   ]},
-  { to: "/newsletter", text: "Newsletter" },
+  { to: "/newsletter", text: "Articles" },
 ];
 
 
