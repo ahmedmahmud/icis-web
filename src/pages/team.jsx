@@ -51,7 +51,7 @@ const team = [
     name: "Diane de Nonneville",
     role: "Head of Technology Development",
     image: "img/team/Diane de Nonneville.png",
-    link: "www.linkedin.com/in/diane-de-nonneville",
+    link: "https://www.linkedin.com/in/diane-de-nonneville",
   },
   {
     name: "Lim Chee Yuan",
