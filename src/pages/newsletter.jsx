@@ -49,7 +49,7 @@ export default function Newsletter() {
 const articles = [
   {
     id: 1,
-    title: "What is Financial Technology?",
+    title: "The Rise of Fintech",
     date: "November 1, 2024",
     author: "Kaavya Iver",
     excerpt: "From digital payments to cryptocurrencies, fintech is transforming the financial landscape...",
@@ -131,5 +131,50 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
       </>
     ),
   },
+  {
+    id: 3,
+    title: "Artificial Intelligence in Finance - Boon or Bane?",
+    date: "November 3, 2024",
+    author: "Rushil Bhandari",
+    excerpt: "Finance has persistently been an industry that is at the forefront of transformative change, and...",
+    thumbnail: "img/articles/AI.jpg",
+    fullContent: (
+      <>
+        <p>  
+          Finance has persistently been an industry that is at the forefront of transformative change, and with the growth of Artificial Intelligence (AI) technology, its presence within the sector cannot be ignored.  
+        </p>
+        
+        <p>
+          Artificial Intelligence provides an incredible opportunity to process, execute, and analyse large sets of information at incredibly fast speeds. Its functionality spans a wide range of services and solves various issues within fraud detection, risk management, and global markets sectors to name a few.  
+        </p>
+  
+        <p>
+          The global AI financial market in 2019 was valued at $8.3 billion, and by 2027 the sector is expected to grow up to $130 billion. There is no surprise that this tremendous growth has attracted significant investment as financial institutions such as J.P. Morgan lead capabilities within AI research and Capital One within AI patents<sup>[1]</sup>.  
+        </p>
+  
+        <p>
+          Machine Learning principles have played a particularly strong role within the AI integration, as these models are exceptionally skilled in analysing complex data sets to identify patterns and anomalies. Currently, they have been successfully deployed for anti-money laundering and know-your-customer (KYC) system checks. The models are exceptionally good at highlighting suspicious activities and ensure regulatory and compliance issues are addressed immediately with greater accuracy<sup>[2]</sup>.  
+        </p>
+  
+        <p>
+          Global Markets is another key focus for AI deployment, as analysing historical data, real-time information, and economic indicators are key tools for portfolio construction and management. These models aim to provide a prediction for navigating complex macroeconomic conditions and volatile markets to potentially create value-add opportunities and also provide risk management. Automation within Quantitative Trading has been a key strategy for many firms, as High-Frequency Trading enabled by AI allows for a high execution speed and quick capture of mispriced assets.  
+        </p>
+  
+        <p>
+          Whilst these AI advancements have brought tremendous benefits, it is important to consider the issue of bias within AI. Artificial intelligence systems operate as ‘black boxes’ where it is important to contextualise the determined outcomes. The bias within AI models can create a feedback loop, which can cause disadvantage to certain categories and skew results. An example of this would be bias in mortgage approvals or underwriting opportunities due to socioeconomic background or race<sup>[3]</sup>.  
+        </p>
+  
+        <p>
+          Finally, for the future, financial institutions have accelerated their attention on implementing ‘fairness-aware machine learning techniques’ and abiding by comprehensive regulatory framework such as the EU AI Act. This ensures to reap the benefit that AI provides within the world of finance whilst making sure these processes are transparent and the people using them are held accountable<sup>[2]</sup>.  
+        </p>
+  
+        <p>Reference List:</p>
+        <p><sup>[1]</sup>"AI in Finance – Navigating the New Frontier" Part 1 | LinkedIn</p>
+        <p><sup>[2]</sup>AI in Finance: Revolutionizing the Future of Financial Management | DataCamp</p>
+        <p><sup>[3]</sup>Tackling bias in artificial intelligence (and in humans) | McKinsey</p>
+      </>
+    ),
+  }
+  
 ];
 

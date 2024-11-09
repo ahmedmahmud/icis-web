@@ -71,7 +71,7 @@ export default function Overview() {
       <h2 className="mt-40 mb-10 text-2xl tracking-wider fade-in-text pt-10 text-center">Some recent highlights...</h2>
       <div className="mx-10 flex flex-row gap-8 pb-10">
         <div className="flex-1">
-          <InstaPostTwo />
+          <InstagramPost />
         </div>
         <div className="flex-1">
           <InstaPostTwo />
