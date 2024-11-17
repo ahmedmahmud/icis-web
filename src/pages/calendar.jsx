@@ -1,5 +1,5 @@
 import FullCalendar from '@fullcalendar/react';
-import dayGridPlugin from '@fullcalendar/daygrid'; // a plugin!
+import dayGridPlugin from '@fullcalendar/daygrid';
 import rrulePlugin from '@fullcalendar/rrule';
 
 export default function Calendar() {
@@ -7,28 +7,39 @@ export default function Calendar() {
     alert(arg.dateStr);
   };
 
-  // Example events with links
   const events = [
     { 
-      title: 'Event 1', 
-      date: '2024-10-01', 
-      description: 'This is event 1', 
-      link: 'https://example.com/event1' // Link for event 1
+      title: 'Private Equity Breakfast and Networking', 
+      date: '2024-11-23', 
+      description: 'We are excited to announce an EXCLUSIVE breakfast networking event with Private Equity professionals across prestigious firms at London Marriott Hotel Kensington!', 
+      link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB9P6iTUMvllImZF8S_cEo5RUMEJVT1ZRQTNIWUlZVTlYNERCMDlRRzg3MCQlQCNjPTEu' // Link for event 1
     },
     { 
-      title: 'Event 2', 
-      date: '2024-10-09', 
-      description: 'This is event 2', 
-      link: 'https://example.com/event2' // Link for event 2
+      title: 'AmplifyME Simulation', 
+      date: '2024-11-26', 
+      description: 'A free, 2-hour LIVE simulation event to gain experience in investment bank trading and asset management roles.', 
+      link: 'https://amplifyme.com/society-booking?uid=45b71311' // Link for event 2
     },
     { 
-      title: 'Event 3', 
-      date: '2024-10-21', 
-      description: 'This is event 3', 
-      link: 'https://example.com/event3' // Link for event 3
+      title: 'Coremont Careers Evening', 
+      date: '2024-11-21', 
+      description: 'Come meet the team for a presentation + networking to get to know more about a technical yet finance-y side of the market! ', 
+      link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB9P6iTUMvllImZF8S_cEo5RUQ0E1V0Q4V0JZUEI1RExDSDQ5MVUyNVpLVyQlQCNjPTEu' // Link for event 3
     },
-    { title: 'SEC', date: '2024-10-05', rrule: 'FREQ=WEEKLY' },
-    
+    { 
+      title: 'Investing Masterclass with Ali Zafar', 
+      date: '2024-11-05', 
+      description: 'Due to popular demand, we are thrilled to announce an exclusive workshop featuring industry expert Ali Zafar, who will guide you through everything you need to know about investing and trading your own money.', 
+    },
+    { title: 'SEC', date: '2024-11-09', link: 'https://investmentsoc.com/sec' },
+    { title: 'SEC', date: '2024-11-02', link: 'https://investmentsoc.com/sec' },
+    { title: 'SEC', date: '2024-11-16', link: 'https://investmentsoc.com/sec' },
+    { title: 'SEC', date: '2024-11-23', link: 'https://investmentsoc.com/sec' },
+    { 
+      title: 'Lazard Exclusive Networking', 
+      date: '2024-11-07', 
+      description: 'Don’t miss the rare opportunity to gain insights at our exclusive panel event featuring top professionals from Lazard! ', 
+    },
   ];
 
   return (
@@ -43,31 +54,32 @@ export default function Calendar() {
             <div className="p-2 text-sm"> {/* Reduced font size */}
               <strong className="block truncate">{arg.event.title}</strong> {/* Ensure title fits */}
               <p className="truncate">{arg.event.extendedProps.description}</p> {/* Ensure description fits */}
+              {arg.event.extendedProps.link && ( 
               <a 
                 href={arg.event.extendedProps.link} 
-                className="text-blue-500 underline text-xs" // Reduced text size for link
+                className="text-blue-500 text-xs" // Reduced text size for link
                 target="_blank" // Open link in a new tab
                 rel="noopener noreferrer" // Security best practices
               >
-                More Info
+                Find out more!
               </a>
+              )}
             </div>
           );
         }}
         eventDidMount={(arg) => {
           const eventDate = new Date(arg.event.start); // Get the event date
           const currentDate = new Date(); // Get the current date
+          arg.el.style.outline = 'blue'; // Remove blue outline
+          arg.el.style.boxShadow = 'none'; // Optional
 
-          // Set the background color based on whether the event is in the past or future
           if (eventDate < currentDate) {
-            arg.el.style.backgroundColor = '#4c5c7a'; // Light blue for past events
+            arg.el.style.backgroundColor = '#192841'; // Light blue for past events
           } else {
-            arg.el.style.backgroundColor = 'blue'; // Blue for future events
+            arg.el.style.backgroundColor = '#2e5a88'; // Blue for future events
           }
 
-          arg.el.addEventListener('click', () => {
-            alert(`Event: ${arg.event.title}`);
-          });
+          
         }}
       />
     </div>

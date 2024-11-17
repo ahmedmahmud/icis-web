@@ -10,6 +10,7 @@ const navLinks = [
     { to: "/qtcapital", text: "QT Capital" },
   ]},
   { to: "/newsletter", text: "Articles" },
+  { to: "/calendar", text: "Calendar" },
 ];
 
 
