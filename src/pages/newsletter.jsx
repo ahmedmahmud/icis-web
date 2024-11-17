@@ -9,7 +9,7 @@ export default function Newsletter() {
 
   return (
     <div>
-      <h1 className="my-40 text-4xl mb-8 text-center tracking-tight font-serif font-light fade-in-text">Newsletter</h1>
+      <h1 className="my-40 text-4xl mb-8 text-center tracking-tight font-serif font-light fade-in-text">Articles</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-10">
         {articles.map((article) => (
@@ -174,7 +174,94 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
         <p><sup>[3]</sup>Tackling bias in artificial intelligence (and in humans) | McKinsey</p>
       </>
     ),
-  }
+  },
+
+  {
+    id: 4,
+    title: "Invest Now, Profit Later: The Power of Early Investing",
+    date: "November 17th, 2024",
+    author: "Daniel Tompkins",
+    excerpt: " We’ve all heard the phrase ‘time in the market is better than timing the market’, but what does this actually mean? Consider the S&P 500. If you invested $1,000 in the S&P in 1980, today this would be worth $66,264. However...",
+    thumbnail: "img/articles/investnow.jpg",
+    fullContent: (
+      <>
+<p> We’ve all heard the phrase ‘time in the market is better than timing the market’, but what does this actually mean? Consider the S&P 500. If you invested $1,000 in the S&P in 1980, today this would be worth $66,264. However, if you waited 10 years and invested in 1990, you would have $25,548 today, meaning delaying the investment by 10 years takes almost two-thirds of your potential profit off the table. When investing, maximising the time your money is in the market is paramount. In this article, we will explore the reasons you should start investing now and what you can do to get started. </p>
+
+<p> There are two key benefits to beginning your investing journey as soon as possible. The first is the time your money can compound over. Allowing your returns to grow and multiply over time is the easiest way to guarantee long-term wealth. To see for yourself, try an online compound interest calculator. Using an initial investment of $5,000 and an annual rate of return of 8% (S&P 500 adjusted for inflation) yields around $55,000 after 30 years, assuming no additional investment. If you added $1,000 to your investment account each month, this $55,000 becomes a cool $1.5 million. In addition to allowing your money to multiply, investing early for the long term allows you to ride out any short-term market volatility. Young investors who start early can afford to ride out dips in the market and still see a return over time. The later you start, the less time you allow for your portfolio to recover from bearish market cycles, which ultimately will lead to lower returns. Investing also brings value beyond increasing your net worth; it teaches you vital lessons about financial literacy that are equally valuable. Investing teaches you about risk management, planning for financial goals, and how markets work. </p>
+
+<p> There are a few common misconceptions about investing that are important to address, one being the idea that you need large amounts of capital to get started. This is far from the case. Investing platforms today offer fractional shares, so instead of buying one share of Tesla for $328, you can buy 0.3 shares for about $100. This allows you to invest as much or as little as you would like in a flexible manner. Another common misconception is the idea that investing your money is risky. Due to inflation, it’s arguably riskier to hold cash as it’s guaranteed to lose value over time. Investing in stable assets such as indices like the S&P 500, blue-chip stocks, or gold are all relatively safe. </p>
+
+<p> To conclude, investing a small amount over time can set you up for future financial stability, but the key is to start early. The longer your money is in the market, the more your returns will compound and the greater your final pot will be. Trading212 is a great beginner platform to get started, with many index funds to choose from. Good luck! </p>
+      </>
+    ),
+  },
+  {
+    id: 5,
+    title: "Demystifying Quantitative Finance",
+    date: "November 17th, 2024",
+    author: "Christian Piazza",
+    excerpt: "  Quantitative finance, or \"quant finance,\" has become an increasingly important part of today’s financial world, and the individuals and institutions who employ it have often managed to stay ahead of the curve and turn in more profits...",
+    thumbnail: "img/articles/demystifying quant finance.jpg",
+    fullContent: (
+      <>
+
+<p> Quantitative finance, or "quant finance," has become an increasingly important part of today’s financial world, and the individuals and institutions who employ it have often managed to stay ahead of the curve and turn in more profits. But what exactly is quantitative finance, and why has it become so vital? Simply put, quantitative finance is the application of statistical methods to solve financial problems such as managing investments, assessing risks, and finding imbalances in the markets, all while relying on data and empirical analysis. Though it may sound daunting, quant finance is grounded in practical applications that bring scientific rigour to finance. </p>
+
+<p> But what is the difference between a quantitative and qualitative approach to financial problems? To answer this, imagine you’re trying to assess the value of a company. A qualitative approach might involve looking at the company’s products, performing a SWOT analysis, or evaluating its management structure—all in an effort to assess how profitable a company will be, and hence how its stock might perform in the long run. These insights, while valuable, are based on subjective judgment. By contrast, a quantitative analyst will rely on numerical data, completely detached from the company’s inner workings, to drive decisions. For example, it may be possible to identify a group of high-performing companies whose stock data exhibits very subtle but highly consistent annual trends and therefore use this knowledge to anticipate the movement of a stock and buy accordingly. It may also be possible to find new stocks that exhibit similar behaviour, and when investing in new stocks, they might choose companies whose stock data aligns with the performance of previously successful ones (McWhinney, 2024). Quant traders often set themselves apart from regular traders by using computers and large data sets to make a high volume of small but well-informed decisions, giving them an edge. </p>
+
+<p> The people behind these methods are known as “quants,” a colloquial term for those who specialise in applying quantitative methods to solve complex financial problems. To excel in this field, quants need three core skills. First, they require a strong mathematical foundation, as mathematics forms the backbone of the models they use. Second, they need to understand financial markets, providing the context in which their models are applied. Finally, they need proficiency in computer science, as programming and data processing are essential for turning their models into actionable strategies. Most quants have advanced degrees—often a master’s or Ph.D.—in fields like mathematics, statistics, computer science, or economics (Yates, 2024). Their skills make them highly sought after by investment banks, hedge funds, and asset management firms looking to gain an edge in a data-driven market. </p>
+
+<p> Quantitative finance skills can be applied across various domains in finance. For example, in equity trading, quants develop algorithms that analyse market data and execute trades at speeds far faster than human traders can manage. In derivative pricing, they build models that determine the value of complex instruments like options, considering factors such as volatility, interest rates, and time decay. Quantitative methods also play a crucial role in portfolio management, where they enable precise asset allocation and risk management, helping portfolio managers construct portfolios that optimise returns while carefully controlling for risk. In risk management, quant methods allow financial institutions to assess potential losses and make proactive adjustments to protect against market downturns. These applications of quant finance bring sophistication and data-driven insights that have transformed traditional financial strategies into more systematic and efficient processes (Qiao, 2024). </p>
+
+<p> Despite its strengths, quantitative finance has its limitations. One drawback is that it can sometimes overlook qualitative factors, which, though harder to measure, are essential for a complete understanding of market dynamics. For instance, purely data-driven models may fail to account for unprecedented events like the 2008 financial crisis or sudden geopolitical events that disrupt commodity prices (McWhinney, 2024). Moreover, quant strategies can lose effectiveness as they become widely adopted. Profit in quantitative finance often comes from spotting market inefficiencies, and when these strategies become popular, the inefficiencies they exploit diminish, making returns harder to achieve. This phenomenon means that quants must continually innovate to stay ahead, adapting their models to evolving market conditions. </p>
+
+<p> In conclusion, quantitative finance is a discipline that combines mathematical, financial, and technological expertise to bring rigorous data analysis to investment strategies, risk management, and financial decision-making. Whether your goal is to become a quant or to simply apply these methods to investment analysis, understanding quantitative finance can open doors to a dynamic and evolving part of the financial world. For students intrigued by the field, gaining a foundation in mathematics, statistics, and programming can provide a strong entry point. </p>
+
+<p>References:</p>
+
+<p>Corporate Finance Institute. (n.d.). What is quantitative finance? Corporate Finance Institute. Retrieved November 12, 2024, from https://corporatefinanceinstitute.com/resources/data-science/quantitative-finance/#:~ =of%20each%20course.-,What%20is%20Quantitative%20Finance?,CFI's%20Financial%20Analyst%20Training%20Courses </p>
+
+<p>McWhinney, J. (2024, October 18). A simple overview of quantitative analysis. Investopedia. Retrieved November 12, 2024, from https://www.investopedia.com/articles/investing/041114/simple-overview-quantitative-analysis.asp </p>
+
+<p>Yates, T. (2024, June 3). Quants: The rocket scientists of Wall Street. Investopedia. Retrieved November 12, 2024, from https://www.investopedia.com/articles/financialcareers/08/quants-quantitative-analyst.asp </p>
+
+<p>Qiao, Y. (2024, July 10). Quantitative finance. Wall Street Oasis. Retrieved November 12, 2024, from https://www.wallstreetoasis.com/resources/skills/finance/quantitative-finance</p>
+      </>
+    ),
+  },
+  {
+    id: 6,
+    title: "The rise of decentralised finance: crypto",
+    date: "November 17th, 2024",
+    author: "Joanna Qiao",
+    excerpt: "  Back in 2018, Warren Buffet called Bitcoin “probably rat poison squared.” Yet, just three years later, his company invested $500 million...",
+    thumbnail: "img/articles/crypto.jpg",
+    fullContent: (
+      <>
+
+
+<p> Back in 2018, Warren Buffet called Bitcoin “probably rat poison squared.” Yet, just three years later, his company invested $500 million in Nubank, a digital bank offering cryptocurrency products (Nadelle, 2024). This surprising turnaround could be part of a bigger trend: the rise of decentralised finance, also known as DeFi, which is changing how money is managed. </p>
+
+<p> DeFi is replacing players in the financial system such as banks and other intermediaries. For centuries, banks have been at the heart of our financial lives, but their services come with a cut from each transaction. This began to change in 2008, when an anonymous person or group under the pseudonym Satoshi Nakamoto published a paper titled “Bitcoin: A Peer-to-Peer Electronic Cash System”. They introduced a new kind of currency that didn’t need banks. Instead, it relied on a peer-to-peer network that enabled direct transactions. </p>
+
+<p> As explained by Rafael Cosman, CEO and co-founder of TrustToken, “DeFi takes the work done by banks and puts it in the hands of regular people” (Napoletano, 2023). To illustrate this concept with a simple example: imagine that you have money sitting in a savings account, earning 0.5% interest rate. In the meantime, your bank might lend that same money to others at a 3% interest rate, keeping the 2.5% difference to themselves. With DeFi, you basically use digital platforms to lend directly to others. This way, you gain direct control over your finances and earn the full 3% interest yourself. </p>
+
+<p> Blockchain and cryptocurrency are the core technologies powering DeFi. Blockchain is a distributed network of computers that records all transaction activities on a DeFi platform in encrypted code, under one system. This is a decentralised system, meaning there is no middleman carrying out transactions. Instead, they are recorded by participants using the same blockchain through a complex mathematical process. The system is intricate, but the overall goal is clear: it offers a public system that makes financial transactions between individuals more secure and transparent than the private system used by banks. </p>
+
+<p> Transactions in DeFi are handled using cryptocurrencies. Two dominate the market so far: Bitcoin (BTC) and Ethereum (ETH). Bitcoin is seen as the “digital gold,” a long-term value storage. Ethereum is more volatile and adaptable to a greater variety of uses, including financial transactions, digital wallets, and NFTs (non-fungible tokens), which are used to commodify typically non-tradable assets. </p>
+
+<p> One interesting case of cryptocurrency adoption is El Salvador. In 2021, it became the first country to make Bitcoin an official currency. This decision aimed to make financial services more accessible for people without bank accounts. Although the decision sparked global debate, it shows the potential for cryptocurrency to improve financial inclusion worldwide. </p>
+
+<p> So, how should beginners approach investing in crypto? Start by setting up a crypto wallet and trade a small amount of digital assets to familiarise with the current landscape. Remember that the market is volatile and still lacks full regulation, so it’s advised to be cautious in the beginning and know that it is possible to lose everything. DeFi still has a long road ahead with its promise and potential, and it’s up to everyone to decide how they want to make the most out of this transformative technology. </p>
+
+<p>References:</p>
+
+<p>Nadelle, D. (2024, April 23). Warren Buffett predicts ‘Bad ending’ for Bitcoin — Is it a doomed investment? Nasdaq. https://www.nasdaq.com/articles/warren-buffett-predicts-bad-ending-bitcoin-it-doomed-investment </p>
+
+<p>Napoletano, E. (2023, April 28). What Is DeFi? Understanding Decentralized Finance. Forbes Advisor. https://www.forbes.com/advisor/investing/cryptocurrency/defi-decentralized-finance/ </p>
+      </>
+    ),
+  },
   
 ];
 
