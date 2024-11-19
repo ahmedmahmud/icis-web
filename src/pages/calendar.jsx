@@ -15,7 +15,13 @@ export default function Calendar() {
       link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB9P6iTUMvllImZF8S_cEo5RUMEJVT1ZRQTNIWUlZVTlYNERCMDlRRzg3MCQlQCNjPTEu' // Link for event 1
     },
     { 
-      title: 'AmplifyME Simulation', 
+      title: 'Peter Higgins x Serendipity Soc', 
+      date: '2024-11-27', 
+      description: 'Ready to uncover the secrets of creating global brands and leaving a lasting legacy? We are excited to welcome Peter Higgins, a serial entrepreneur with a proven track record of building and transforming globally recognized brands like Charles Tyrwhitt (revenue of £350MM), ME+EM (valued + £135MM), Emma Watsons gin company, RENAIS(£25MM raised by VC) and many more. 🚀 ', 
+      link: 'https://lu.ma/mumhnb6l' // Link for event 2
+    },
+    { 
+      title: 'AmplifyMe Simulation', 
       date: '2024-11-26', 
       description: 'A free, 2-hour LIVE simulation event to gain experience in investment bank trading and asset management roles.', 
       link: 'https://amplifyme.com/society-booking?uid=45b71311' // Link for event 2
