@@ -9,8 +9,11 @@ const navLinks = [
     { to: "/sec", text: "SEC" },
     { to: "/qtcapital", text: "QT Capital" },
   ]},
-  { to: "/newsletter", text: "Articles" },
   { to: "/calendar", text: "Calendar" },
+  { text: "Insights", subLinks: [
+    { to: "/newsletter", text: "Articles" },
+    { to: "/podcast", text: "Podcast" },
+  ]},
 ];
 
 
