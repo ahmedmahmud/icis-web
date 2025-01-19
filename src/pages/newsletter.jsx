@@ -368,6 +368,116 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
       </>
     ),
   },
+  {
+    id: 9,
+    title: "The Role of Big Data in Investment Strategies ",
+    date: "Janurary 19th 2025",
+    author: "Arun Nandakumar",
+    excerpt: " What is big data? It is the immense volume and high-velocity heterogeneous data that organisations capture and process in attempts to generate value. The field spans industries...",
+    thumbnail: "img/articles/impact investing.jpg",
+    fullContent: (
+      <>
+Title: The Role of Big Data in Investment Strategies
+Author: Arun Nandakumar
+
+<p> What is big data? It is the immense volume and high-velocity heterogeneous data that organisations capture and process in attempts to generate value. The field spans industries, within which decisions and insights range from healthcare to finance. It is foundational to enhanced risk management, fraud detection, customer behaviour comprehension, and, of course, algorithmic trading strategy development in finance. It has become essential for financial organisations to implement big data solutions to make informed decisions, optimise operations, and maintain a competitive edge in this rapidly evolving market. </p>
+
+<p> Traditional decision-making processes in the investment management industry are changing. Natural language processing and machine learning can be used for real-time market analysis, sentiment analysis, and identifying trading opportunities. </p>
+
+<p><u>Understanding big data in finance </u></p>
+
+<p> Big data is a collection of immense volumes of information—both structured and unstructured—maintaining great velocity and variety. It ranges from more conventional sources, such as financial statements and market trends, to new sources like social media, news feeds, or even alternative data such as satellite imagery. This set of information revolutionised the financial realm with more sophisticated applications, like algorithmic trading, where big and intricate models execute trades faster. Big data fuels predictive analysis, which enables firms to predict market movements and risk assessment more accurately. In 2024, Goldman Sachs leveraged alternative data sources, such as customer sentiment and credit card transactions, to predict retail trends during the holiday season, enabling more accurate investment strategies (Finimize, 2024). Sentiment analysis also uses natural language processing to determine market sentiment from different text sources, thereby offering precious insights into investor behaviour and possible market shifts. </p>
+
+<p><u>Big data and investment strategies </u></p>
+
+<p> Investment strategies have changed. Companies that once relied on reports and market data for analysis have now inducted alternative data into their strategies—big data. This gives firms a competitive edge through market trends and consumer behaviour. As of 2022, about 65% of hedge funds were using big data analytics to inform their trading strategies (Lowenstein Sandler LLP, 2022). In machine learning algorithms, large data are processed to identify patterns for the prediction of market movement with higher accuracy. Algorithms analyse structured data like stock prices, unstructured data such as social media sentiment, and high-frequency trading data to uncover insights that are often missed by human analysis. By recognising correlations, predicting trends, and continuously learning from new information, these models inform strategies like momentum trading and arbitrage, enabling faster, more informed decision-making in dynamic markets. Consequently, an investment strategy has emerged that becomes more adaptive with the use of algorithmic trading, reaching more than 60 percent of equity trading volume in US markets. Investment managers leverage big data analytics to optimise portfolio management, improve risk assessment, and make timely market decisions to capitalise on opportunities. </p>
+
+<p><u> Challenges and Limitations </u></p>
+
+<p> While the prospects are great, big data does not come without its set of challenges. Data quality remains an issue: studies have shown that more than 30% of datasets (FirstLogic Solutions, 2023) used by financial firms contain errors or inconsistencies that can lead to flawed analyses. The volume requires robust infrastructure and expertise; big data system implementations cost large firms millions each year, which is beyond the reach of smaller firms. The use of alternative data is further complicated by the fact that regulations like the GDPR reduce access to or usage of valuable information. Moreover, excessive dependence on algorithms increases market risks, as was recently evidenced by the 2010 Flash Crash, when automated trading systems caused a sudden plunge in the market (CFI, 2010). These challenges emphasise careful management and a balanced approach in leveraging big data in investment. </p> 
+
+<p><u> Future outlook </u></p>
+
+<p> The future of big data in investment strategies is a deep integration with emerging technologies: AI and machine learning will continue to evolve, enabling the processing of more complex data in real time. Quantum computing may increase the speed and accuracy of predictive models exponentially, as some predict it will disrupt the ways of data processing within the next decade. Moreover, big data is increasingly being integrated with ESG metrics, with over 70% of institutional investors (Seneca ESG, 2023) now considering ESG factors critical to decision-making. As these sources continue to grow in number, the ability to address ethical concerns and achieve compliance with evolving regulations must simultaneously increase. Big data is continually evolving and redefining the investment landscape toward better-informed, adaptive, and sustainable strategies. </p>
+
+<p><u>References </u></p> 
+
+<p> Finimize. (n.d.). Goldman Sachs taps alternative data to predict retail trends. Retrieved from https://finimize.com/content/goldman-sachs-taps-alternative-data-to-predict-retail-trends </p> 
+
+<p> Lowenstein Sandler LLP. (2022). 2022 Alternative Data Report. Retrieved from https://www.lowenstein.com/media/11867/2022-alternative-data-report-final.pdf </p>
+
+<p> Firstlogic Solutions. (n.d.). Data inaccuracy is risky in financial services. Retrieved from https://firstlogic.com/insights/data-inaccuracy-is-risky-in-financial-services </p>
+
+<p> Corporate Finance Institute. (n.d.). 2010 Flash Crash. Retrieved from https://corporatefinanceinstitute.com/resources/equities/2010-flash-crash </p>
+
+<p> Seneca ESG. (n.d.). Data privacy regulations in an ESG context. Retrieved from https://senecaesg.com/insights/data-privacy-regulations-in-an-esg-context </p>
+      </>
+    ),
+  },
+  {
+    id: 10,
+    title: "Impact Investing: Balancing Profits with Purpose ",
+    date: "Janurary 19th 2025",
+    author: "Isabella Mariani",
+    excerpt: "Impact investing involves investing in companies, projects, or funds that generate positive social or environmental outcomes alongside financial returns, which is considered socially desirable but is often sacrificed in the face of other opportunities ...",
+    thumbnail: "img/articles/impact investing2.jpg",
+    fullContent: (
+      <>
+
+<p> Impact investing involves investing in companies, projects, or funds that generate positive social or environmental outcomes alongside financial returns, which is considered socially desirable but is often sacrificed in the face of other opportunities with higher returns (Bugg-Levine & Emerson, 2011). </p>
+
+<p> One approach is to obligate companies to address the issue: in the EU, the Corporate Sustainability Due Diligence Directive requires managing human rights and environmental risks throughout supply chains, adopting transition plans aligned with the Paris Agreement, conducting stakeholder engagements, and providing remediation measures where necessary (European Commission, 2022). </p>
+
+<p> The EU emphasises civil liability for noncompliance, with penalties based on global turnover, and now includes new guidelines for funds that use ESG-related terms in their names to avoid greenwashing risks  (where companies or funds make misleading claims about their sustainability practices) , where preliminary surveys have shown a significant increase in compliance costs that would be passed on to end clients (ESMA, 2024). The net effects of this are unclear: these funds could be rewarded by activist investors who seek transparency, potentially attracting more clients who would be willing to pay the premium for assurance on the sustainability of their investments (Morningstar, 2024). </p>
+
+<p> However, this does increase the costs of investing in ESG funds relative to others, making it fundamentally less attractive for those who are more indifferent to the nature of their investments, undermining the goal of mainstreaming impact investing (KPMG, 2023). </p>
+
+<p> In contrast, the United States takes a less interventionist approach, with ESG investing largely driven by market forces rather than strict regulatory mandates that may distort prices. However, divisive political debates over ESG-related disclosures have caused regulatory uncertainty, with some US states even moving to ban ESG investing practices, with reverberating effects in the private sector, such as BlackRock’s recent decision to pull out of the Net Zero Asset Managers Initiative under pressure from Republican politicians (Financial Times, 2024). </p>
+
+<p> Beyond Western markets, impact investing is growing rapidly. </p>
+
+<p> In India, microfinance institutions and social enterprises have gained significant backing (IFC, 2023), while China is ramping up its green finance efforts, including green bonds to combat air pollution and invest in clean energy (World Bank, 2023). </p>
+
+<p> In Africa, impact investing focuses on financial inclusion, renewable energy, and agriculture, with mobile money platforms increasing access to financial services (McKinsey, 2023). </p> 
+
+<p> In Latin America, impact investing addresses challenges like income inequality, deforestation, and access to education. Countries like Brazil are seeing a rise in investments that target sustainable agriculture and biodiversity conservation (IDB, 2024). However, political instability and regulatory inconsistencies can pose challenges to scaling impact investing in some parts of the region (OECD, 2024). </p>
+
+<p> To strike the right balance between profit and purpose, policymakers and financial institutions must ensure that regulations encourage accountability without stifling innovation or pricing out investors (WEF, 2024). The future of impact investing lies in fostering trust, transparency, and scalability, ensuring that capital flows to projects that deliver measurable positive change while offering competitive returns. </p>
+
+<p> Ultimately, impact investing represents a shift in how society views capital—from a tool of profit-making to a driver of sustainable progress. </p>
+
+<p> References </p>
+
+<p> Bugg-Levine, A., & Emerson, J. (2011). Impact Investing: Transforming How We Make Money While Making a Difference. Jossey-Bass. </p>
+
+<p> European Commission. (2022). Corporate Sustainability Due Diligence Directive. Brussels. </p>
+
+<p> European Parliament. (2023). Civil Liability in Sustainability Regulations. Strasbourg. </p>
+
+<p> ESMA. (2024). Guidelines on Funds with ESG Terms in Their Names. Paris. </p>
+
+<p> Financial Times. (2024). BlackRock’s latest green climbdown. London. </p>
+
+<p> IFC (International Finance Corporation). (2023). Impact Investing | International Finance Corporation (IFC). Washington, D.C. </p>
+
+<p> KPMG. (2023). Sustainable Finance Trends in Europe. Amsterdam. </p>
+
+<p> McKinsey. (2023). The Future of Financial Inclusion in Africa. Nairobi. </p>
+
+<p> Morningstar. (2024). The Cost of ESG Compliance: A Global Perspective. Chicago. </p>
+
+<p> OECD. (2024). Scaling Impact Investing in Latin America. Paris. </p>
+
+<p> IDB (Inter-American Development Bank). (2024). Sustainability and Impact Investing in Latin America. Washington, D.C. </p>
+
+<p> UN PRI (United Nations Principles for Responsible Investment). (2023). Global Trends in Responsible Investment. New York. </p>
+
+<p> WEF (World Economic Forum). (2024). The Future of Impact Investing: Balancing Profit and Purpose. Geneva. </p>
+
+<p> World Bank. (2023). China’s Green Finance Strategy. Beijing. </p>
+      </>
+    ),
+  },
   
 ];
 
