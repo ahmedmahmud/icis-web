@@ -377,8 +377,6 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
     thumbnail: "img/articles/impact investing.jpg",
     fullContent: (
       <>
-Title: The Role of Big Data in Investment Strategies
-Author: Arun Nandakumar
 
 <p> What is big data? It is the immense volume and high-velocity heterogeneous data that organisations capture and process in attempts to generate value. The field spans industries, within which decisions and insights range from healthcare to finance. It is foundational to enhanced risk management, fraud detection, customer behaviour comprehension, and, of course, algorithmic trading strategy development in finance. It has become essential for financial organisations to implement big data solutions to make informed decisions, optimise operations, and maintain a competitive edge in this rapidly evolving market. </p>
 
@@ -446,7 +444,7 @@ Author: Arun Nandakumar
 
 <p> Ultimately, impact investing represents a shift in how society views capital—from a tool of profit-making to a driver of sustainable progress. </p>
 
-<p> References </p>
+<p><u> References </u></p>
 
 <p> Bugg-Levine, A., & Emerson, J. (2011). Impact Investing: Transforming How We Make Money While Making a Difference. Jossey-Bass. </p>
 
