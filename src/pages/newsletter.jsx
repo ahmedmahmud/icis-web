@@ -476,6 +476,79 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
       </>
     ),
   },
+  {
+    id: 11,
+    title: "Art Investment: Value Beyond the Canvas ",
+    date: "Janurary 19th 2025",
+    author: "Joanna Qiao",
+    excerpt: "In November 2024, a peculiar auction took place at Sotheby’s in New York...",
+    thumbnail: "img/articles/art.jpg",
+    fullContent: (
+      <>
+<p> In November 2024, a peculiar auction took place at Sotheby’s in New York. Bidding began at $800,000 for a banana affixed to a white wall with silver duct tape. Within minutes, the bid soared past $2 million, then $3 million, $4 million, and finally reached $5.2 million, sold to a Chinese entrepreneur (Cowan, 2024). The viral ‘banana art’ was part of a collection titled Comedian by the Italian visual artist Maurizio Cattelan. This series, first showcased at the Art Basel Miami Beach fair in 2019, originally sold for between $120,000 and $150,000. </p>
+<p> Justin Sun, the crypto entrepreneur, outbid six other collectors after a five-minute battle for the piece. He acquired the banana along with a certificate of authenticity, as well as a 14-page installation guide detailing how to replace the banana if it spoils. Sun also gained the right to display the piece anywhere and to include the artist’s signature. In Sun’s own words, this artwork “represents a cultural phenomenon that bridges the world of art, memes, and the cryptocurrency community.” Shortly after the purchase, he ate the banana on stage. </p> 
+<p> However, Sun surely wasn’t just paying for the fruit itself. The art market has always been unpredictable, with conceptual pieces often commanding exorbitant prices. This underscores the evolving dynamics of art investment, where value is frequently intertwined with cultural commentary and media influence. Art investment has long been an attractive alternative to traditional assets for investors. Artwork is often considered a tangible asset that retains or increases its value over time, providing investors with a safeguard against inflation. The Deloitte Art & Finance Report in 2019 noted that art “has a stronger positive correlation with the price of gold than with other asset classes,” making it perceived as a value-holding asset class rather than a conventional investment. </p>
+<p> Even during economic downturns, certain segments of the art market, such as contemporary art, have demonstrated strong performance, making it a viable alternative when traditional assets underperform (Lawlor, 2024). During the Covid crisis, global art prices performed better than they did prior to the period. Citi revealed that contemporary art prices gained 6.7% during the crisis, outperforming ten major asset classes, including developed-market stocks, developed-market investment-grade bonds, private equity, and real estate. Research by London Business School also found that art delivered a real return (adjusted for inflation) of 2.4% annually over the last 20 years, outperforming bonds (1.5%) and gold (1.1%), though falling short of the 5.2% return of stocks. </p> 
+<p> The cost of investing in art is also significantly higher than investing in stocks or bonds. Major auction houses like Christie’s and Sotheby’s often charge additional fees that can exceed 25% of the sale price. However, for many collectors, the intangible value of owning unique pieces outweighs these costs. The joy of curating and owning art—often referred to as an “emotional dividend”—remains a defining feature of art investment, often eclipsing financial returns. </p> 
+
+<p> Returning to the banana story, Sun intended to pay for the artwork using his cryptocurrency, Tron, as Sotheby’s announced that the piece could be purchased with cryptocurrency (Weisberger, 2024) . For crypto entrepreneurs like Sun, the most valuable asset isn’t just the currency itself but the attention and promotion it generates. By purchasing the “banana” and publicly announcing himself as the buyer, Sun capitalised on the publicity, which Sotheby’s was happy to support. Even underbidders, including two crypto entrepreneurs who later revealed their identities, participated in the auction for the publicity it offered. For Sun, the viral attention gained was far more valuable than the $5 million spent. With ownership of the artwork, he could tokenise the banana on his Tron blockchain or create NFTs, potentially generating wealth far beyond the initial investment. </p> 
+<p> The art market represents a blending of art, technology, and commerce in today’s world. While offering financial returns, the true value of art investment often lies in its cultural impact, personal enjoyment, and ability to spark meaningful conversations and innovation. From traditional collections to modern digital platforms, art continues to be a versatile and ever-changing asset. </p> 
+
+<p><b> References </b></p>
+
+<p> Cowan J. Why did a banana sell for $150,000? The art world has its reasons. The New York Times. 2024 Nov 21 [cited 2025 Jan 31]; Available from: https://www.nytimes.com/2024/11/21/arts/design/banana-auction-explainer-cattelan.html </p>
+
+<p> Investec. Art as an investment. Investec Focus [Internet]. 2024 [cited 2025 Jan 31]; Available from: https://www.investec.com/en_za/focus/investec-cape-town-art-fair/art-as-an-investment.html </p> 
+
+<p> Weisberger M. That viral banana duct-taped to a wall? It just sold for $6.2 million. Smithsonian Magazine. 2024 Jan 26 [cited 2025 Jan 31]; Available from: https://www.smithsonianmag.com/smart-news/that-viral-banana-duct-taped-to-a-wall-it-just-sold-for-6-2-million-180985523/ </p>
+
+      </>
+    ),
+  },
+  {
+    id: 12,
+    title: "The Midas Touch; can gold only glitter?  ",
+    date: "Feburary 2nd 2025",
+    author: "Kaavya Iyer",
+    excerpt: "Gold has historically held a strong significance in many markets—its birthplace as a currency began around 600 BC under King Croesus of Lydia, now modern-day Turkey...",
+    thumbnail: "img/articles/gold glitters.jpg",
+    fullContent: (
+      <>
+<p> Gold has historically held a strong significance in many markets—its birthplace as a currency began around 600 BC under King Croesus of Lydia, now modern-day Turkey (McKay & Peters, 2017). Its above-ground stock has since developed into jewellery, private investment, and technology, but why are we so obsessed with this shiny yellow metal? Firstly, as a noble metal, gold resists corrosion and oxidisation, beating its ‘noble competitors’ in resistance to degradation—making it the perfect metal for a measure of currency (McKay & Peters, 2017). Furthermore, gold symbolises wealth, power, and beauty across cultures, which has built centuries of universal appeal through a historical association with wealth preservation and financial security. Its physical and symbolic appeal has meant that gold is central to many economies, but exactly how central and to whom? </p>
+
+<p> Whilst its value sees short-term volatility in price, when looking at the big picture, global gold spot prices have consistently risen—with 1833 gold prices at $0.66 per gram contrasting with 2025 data so far of around $86 per gram (World Gold Council, 2025). Like any commodity, the price of gold is determined by the interaction between supply and demand. In times of political and financial uncertainty, investors turn to gold as a diversification tool, which spikes demand, and the converse is true when markets take a bullish turn as investors seek greater exploits on their investments, resulting in gold’s inverse correlation to market prosperity (Rathi et al., 2021). This raises the question as to why investors treat gold as a safe haven investment. The answer lies in the metal’s history with currency and trade: even though the gold standard was well and truly dropped in the 70s, the intertwined relationship between gold and modern fiat currency means that you won’t be able to swap your £10 note for a block of gold at the Bank of England, but central banks everywhere will use gold reserves to maintain economic stability (Bank of England, 2023).  </p>
+
+<p> However, this isn’t the full story. </p> 
+
+<p> Despite its significance as an investment, looking at global gold trends requires some perspective. In 2022, 46% of over-ground gold stocks were held in jewellery, compared to only 22% in private investments, and this isn’t a new pattern (World Gold Council, 2025). China, India, Turkey, and the US are the largest buyers of gold respectively, and this is largely determined by cultural attitudes towards gold jewellery. This has resulted in local deviations, most notably in India and China (World Gold Council, 2025). Regional prices in the largest gold markets of the world often differ from international prices, reflecting the increased significance of the metal in these geographies as illustrated in the time series below. </p>
+<img src="img/articles/discounts.jpg" alt="Gold price trends graph" className="mt-4 w-full max-w-3xl mx-auto" />
+<p> Overall, the time series illustrates that both China and India have seen sizeable and frequent discounts as well as premiums from global gold prices over the last 20 years, and so we can’t apply general global trends as easily to these two regions. The data suggests that, compared with China, India displays more acute and frequent deviations from global prices. This perhaps reflects the country’s more volatile market dynamics and taxation patterns – most clearly in 2013 where India saw an extreme premium spike coinciding with the government’s increase in restrictions on gold imports. This could also be an indication that China has a greater focus, compared to India, with regards to holding gold reserves and treating it as an investment asset. </p>
+
+<p> Finally, the Midas touch is starting to threaten the power of the American dollar. Over the last year, there has been a steady rise in gold prices and a noticeable detachment of gold prices from interest rates, inflation, and importantly, the dollar. This can be attributed to geopolitical and economic instability but, more importantly, to consistent purchases of gold made by foreign central banks. This implies efforts are being made to diversify reserves away from the US dollar, suggesting countries are losing confidence in American trade and the US’ multilateral cooperation (El-Erian, 2024). As MAGA-nomics takes the spotlight on the global trade stage, it will be interesting to see if the Midas touch continues to indicate a golden shift away from the dollar. </p> 
+<p><b> References </b></p>
+
+<p> Erb, Claude B., and Campbell R. Harvey. “The Golden Dilemma.” Financial Analysts Journal, vol. 69, no. 4, 2013, pp. 10–42. JSTOR, http://www.jstor.org/stable/23469534. Accessed 31 Jan. 2025. </p>
+
+<p> World Gold Council. (2025, January 29). Gold Price Historical Data | Gold Price History | World Gold Council. World Gold Council; World Gold Council. https://www.gold.org/goldhub/data/gold-prices </p>
+
+<p> ‌McKay, D. R., & Peters, D. A. (2017). The Midas Touch: Gold and Its Role in the Global Economy. Plastic Surgery, 25(1), 61–63. https://doi.org/10.1177/2292550317696049 </p>
+
+<p> Rathi, S., Mohapatra, S., & Sahay, A. (2021). Central bank gold reserves and sovereign credit risk. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3808521 </p>
+
+<p> Gold. (n.d.). Www.bankofengland.co.uk. https://www.bankofengland.co.uk/gold </p>
+
+<p> El-Erian, M. (2024, October 21). Why the west should be paying more attention to the gold price rise. @FinancialTimes; Financial Times. https://www.ft.com/content/b5fb1e6b-bb8d-4ab5-9c92-f1f6fc40a54b </p>
+
+<p> Gold Price All Time | Per Gram | US Dollars | Chard. (2025). Chards.co.uk. https://www.chards.co.uk/gold-price/gram/usd/all-time </p>
+
+<p> Council, W. G. (2025, January 27). Local gold price premium/discount. World Gold Council. https://www.gold.org/goldhub/data/gold-premium </p>
+
+<p> China’s Gold Market | Gold Demand in China. (n.d.). World Gold Council. https://www.gold.org/about-gold/gold-demand/geographical-diversity/china </p>
+
+
+      </>
+    ),
+  },
   
 ];
 
