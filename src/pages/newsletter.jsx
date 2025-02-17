@@ -50,7 +50,7 @@ const articles = [
   {
     id: 1,
     title: "The Rise of Fintech",
-    date: "November 1, 2024",
+    date: "November 1st, 2024",
     author: "Kaavya Iver",
     excerpt: "From digital payments to cryptocurrencies, fintech is transforming the financial landscape...",
     thumbnail: "img/articles/rise_of_fintech.jpg",
@@ -99,7 +99,7 @@ Overall, I think that it’s fair to say that fintech is symbolic of the advanta
   {
     id:2,
     title: "The Consolidation of European Banks and Its Impact on Global Markets",
-    date: "November 1, 2024",
+    date: "November 1st, 2024",
     author: "Nikita Karri",
     excerpt: "With the current economic climate moving towards a less fragmented and more responsive financial landscape, a question arises about the future of European banks and a possible consolidation between them...",
     thumbnail: "img/articles/european_banks.jpg",
@@ -134,7 +134,7 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
   {
     id: 3,
     title: "Artificial Intelligence in Finance - Boon or Bane?",
-    date: "November 3, 2024",
+    date: "November 3rd, 2024",
     author: "Rushil Bhandari",
     excerpt: "Finance has persistently been an industry that is at the forefront of transformative change, and...",
     thumbnail: "img/articles/AI.jpg",
@@ -479,7 +479,7 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
   {
     id: 11,
     title: "Art Investment: Value Beyond the Canvas ",
-    date: "Janurary 19th 2025",
+    date: "Feburary 2nd 2025",
     author: "Joanna Qiao",
     excerpt: "In November 2024, a peculiar auction took place at Sotheby’s in New York...",
     thumbnail: "img/articles/art.jpg",
@@ -549,6 +549,81 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
       </>
     ),
   },
-  
+  {
+    id: 13,
+    title: "Behind the Scenes of an IPO: Key Steps and Players",
+    date: "Feburary 17th 2025",
+    author: "Mohamed Jama",
+    excerpt: "For many companies, an initial public offering (IPO) is a pivotal moment that signals a transition from private to public ownership, offering access to...",
+    thumbnail: "img/articles/ipo.jpg",
+    fullContent: (
+      <>
+<p> For many companies, an initial public offering (IPO) is a pivotal moment that signals a transition from private to public ownership, offering access to capital markets and broader visibility. However, the process is intricate, involving multiple stakeholders and extensive regulatory oversight. The decision to go public is not taken lightly, as it requires a thorough evaluation of the company’s financial health, future growth prospects, and willingness to accept the scrutiny that comes with being a publicly traded entity. Companies pursue an IPO for various reasons—raising capital for expansion, increasing brand credibility, providing liquidity for early investors, or leveraging publicly traded shares for mergers and acquisitions. However, the benefits come with trade-offs, including the obligation to meet quarterly earnings expectations, disclose financials transparently, and face potential market volatility (Perivan, 2021). </p>
+<p> At the heart of the IPO process are investment banks, which serve as underwriters, managing the transaction, pricing the shares, and facilitating investor demand. These banks assess the company’s valuation using a combination of financial analysis, industry comparisons, and market sentiment. The lead underwriter, often referred to as the bookrunner, has a particularly crucial role, as their reputation and distribution network can significantly impact the IPO’s success. They work closely with the company’s management to craft a compelling narrative that will appeal to institutional investors such as hedge funds, pension funds, and asset managers, who collectively determine early market interest (Cooley LLP, 2021). </p>
+<p> With underwriters in place, the company embarks on the due diligence phase, where financial and legal teams scrutinise every aspect of the business to ensure compliance with regulatory standards. In the UK, companies seeking to go public must submit a prospectus to the Financial Conduct Authority (FCA) for approval. This document provides a comprehensive overview of the company’s business model, financial health, risk factors, and intended use of IPO proceeds. The FCA assesses the prospectus to ensure it meets disclosure requirements and regulatory standards, aiming to protect investors and maintain market integrity. Once approved, the company must also comply with the listing rules set by the London Stock Exchange (LSE) or the Alternative Investment Market (AIM), depending on where it chooses to list. These regulations ensure transparency and provide investors with the information necessary to make informed decisions (KPMG LLP, 2023). Regulators play a key role in ensuring that the company’s disclosures are accurate and comprehensive, protecting both institutional and retail investors from potential misinformation. </p>
+<p> Once regulatory approval is secured, the company and its underwriters embark on a roadshow—a series of presentations to potential investors designed to generate interest in the offering. These roadshows serve as a critical phase in determining investor appetite, as the demand levels dictate the final IPO pricing. Investment banks use valuation models and investor feedback to set an optimal share price that balances raising capital while ensuring strong aftermarket performance. If demand is high, the company may raise the share price or issue additional shares, whereas weak interest may lead to price reductions or even a delayed offering (Tipalti, n.d.). </p> 
+<p> IPO day marks the official debut of the company’s shares on a public exchange such as the NYSE, NASDAQ, or LSE. Market anticipation often drives significant volatility in early trading, and underwriters engage in a process called stabilisation to mitigate extreme fluctuations. A successful IPO is often characterised by a well-received debut, sometimes featuring a stock price "pop", where shares trade significantly above the initial offering price. However, if investor sentiment is weak, an underwhelming launch can damage confidence and negatively impact the company’s future capital-raising prospects (British Business Bank, n.d.). </p>
+<p> The transition to a public company does not end on IPO day. Companies must now adhere to stringent reporting standards, engage with investors, and navigate the expectations of analysts who will scrutinise financial performance. One of the immediate challenges is the lock-up period, typically lasting 90 to 180 days, which prevents insiders from selling their shares to avoid market destabilisation. Additionally, management teams must focus on sustaining shareholder confidence by delivering on growth promises and mitigating market risks, as failing to do so can attract activist investors pushing for strategic changes (Perivan, 2021). </p>
+<p> The IPO landscape is shaped by a network of players, each with a distinct role in determining an offering’s success. Investment banks manage the financial structuring and marketing of the offering, while regulators ensure compliance and investor protection. Legal and accounting firms oversee due diligence, ensuring financial statements and risk disclosures are in order. Institutional investors, such as hedge funds and asset managers, assess the company’s potential and drive initial market demand, while retail investors contribute to post-IPO trading activity. Each stakeholder is essential in navigating the complexities of the public market transition (Cooley LLP, 2021). </p>
+<p> While IPOs can serve as powerful catalysts for growth, they come with inherent risks that must be carefully managed. Companies must balance raising capital with maintaining investor trust and regulatory compliance. Investors, on the other hand, must weigh the opportunity to gain early exposure to a promising business against the possibility of volatility and underperformance. Understanding the intricacies behind an IPO provides a deeper appreciation of the forces that drive market activity and determine the success or failure of newly listed companies (KPMG LLP, 2023). </p>
+<p><b> References </b></p>
+<p> British Business Bank. (n.d.). What is an Initial public offering (IPO)? Retrieved from https://www.british-business-bank.co.uk/business-guidance/guidance-articles/finance/ipo </p>
+<p> Cooley LLP. (2021). IPOs in the UK: What's Involved? Retrieved from https://www.cooleygo.com/ipos-in-the-uk-whats-involved/ </p>
+<p> KPMG LLP. (2023). Preparing for UK IPO success. Retrieved from https://assets.kpmg.com/content/dam/kpmg/uk/pdf/2022/10/preparing-for-ipo-success-ipo-readiness-brochure.pdf </p>
+<p> Perivan. (2021). IPO Process - A Guide to the Steps in Initial Public Offerings. Retrieved from https://www.perivan.com/resources/blog/ipo-process-a-guide-to-the-steps-in-initial-public-offerings/ </p>
+<p> Tipalti. (n.d.). How to Go Public (IPO): Step-by-Step Instructions. Retrieved from https://tipalti.com/en-uk/go-ipo/how-to-go-public/ </p>
+      </>
+    ),
+  },
+  {
+    id: 14,
+    title: "The Anatomy of Financial Fraud in Modern Markets  ",
+    date: "Feburary 17th 2025",
+    author: "Arun Nandakumar",
+    excerpt: "Finance is a field not only built on numbers but also on psychology and perception. Fraudsters can manipulate this perception by creating and maintaining illusions that can deceive investors...",
+    thumbnail: "img/articles/fraud in finance.jpg",
+    fullContent: (
+      <>
+<p> Finance is a field not only built on numbers but also on psychology and perception. Fraudsters can manipulate this perception by creating and maintaining illusions that can deceive investors, regulators, and even auditors. From Ponzi schemes to insider trading and market manipulation, financial fraud has evolved with the markets, adapting to regulatory loopholes and technological advances. </p>
+<p> Financial fraud relies on three key elements: trust, complexity, and psychological manipulation. Bernie Madoff’s Ponzi scheme is trust-based fraud, where exclusivity and consistent but modest returns reinforced investor confidence, even as the fund lacked real investments (Lewis, 2016). Complexity is another shield; Enron’s off-balance-sheet accounting obscured debt while marking projected future earnings as realised profits, making it difficult for analysts to unravel the deception (McLean & Elkind, 2003). Psychological biases, especially the ‘fear of missing out,’ keep investors from questioning irregularities, as seen in bubbles and high-yield investment scams (Shiller, 2015). </p>
+<p> Fraudsters structure their deception around a compelling promise, a seemingly logical mechanism, and a well-maintained facade. The promise—whether steady returns (Madoff), superior market insight (Galleon Group), or cutting-edge technology (Wirecard)—attracts investors. The mechanism legitimises the fraud, using fake trades, falsified accounts, or privileged information. The facade is maintained through the media, aggressive legal tactics, or selective disclosure. </p> 
+<p><b> Case Studies: How the Illusion Collapsed </b></p>
+<img src="img/articles/bernie.jpg" alt="Gold price trends graph" className="mt-4 w-full max-w-3xl mx-auto" />
+<p> Bernie Madoff is infamous for one of the greatest Ponzi schemes in history. He not only deceived investors but made them part of their own deception. Most Ponzi schemes promise sky-high returns. Madoff’s strategy was to deliver a consistent, modest profit, at around 10-12% annually. This consistency, in a market known for volatility, should have been a red flag, but investors didn’t question it. Why? They wanted to believe. </p>
+<p> Madoff also played the game of exclusivity. He turned away investors, making his fund appear even more desirable. However, behind the scenes, there was no real investment—just an elaborate shuffling of money from new investors to old ones. The 2008 financial crisis, however, triggered massive redemption requests that were unfulfillable, bringing his empire crashing down. </p>
+<img src="img/articles/second fraud guy.jpg" alt="Gold price trends graph" className="mt-4 w-full max-w-3xl mx-auto" />
+<p> Raj Rajaratnam ran Galleon Group as if it were an information cartel. His hedge fund didn’t just make educated bets; it had a direct access into corporate boardrooms of Silicon Valley and Wall Street. Company executives, analysts, and government officials provided him with confidential market-moving information in exchange for substantial payouts. </p>
+<p> What made Galleon’s fraud remarkable was how deeply embedded insider trading was in the firm’s culture. Employees openly discussed illegal tips, normalising the crime. It took an unprecedented move—wiretap surveillance—to finally bring Rajaratnam down, setting a new precedent in financial crime investigations. </p>
+<img src="img/articles/fraud in finance.jpg" alt="Gold price trends graph" className="mt-4 w-full max-w-3xl mx-auto" />
+<p> Enron made failure look like success. The company’s executives used mark-to-market accounting to record hypothetical future profits as if they had already been earned. When projects failed, the losses were buried in off-balance-sheet entities. On paper, Enron was thriving; in reality, it was a house of cards. </p>
+<p> The fraud went undetected for years because Enron’s leadership cultivated a culture of intimidation. Employees who questioned financial practices were silenced, and executives aggressively attacked critics. The scandal eventually unravelled when whistleblowers came forward, which led to one of the largest corporate bankruptcies in history. </p>
+<img src="img/articles/wirecard.jpg" alt="Gold price trends graph" className="mt-4 w-full max-w-3xl mx-auto" />
+
+<p> Wirecard’s fraud was digital-age deception at its finest. Unlike traditional financial scams, which relied on outdated accounting tricks, Wirecard exploited the complexity of fintech and regulatory blind spots. They fabricated billions of dollars in revenue from overseas operations and convinced investors that it was the next global payments giant. </p>
+
+<p> What kept Wirecard’s fraud afloat for so long was its aggressive legal response to critics. Journalists and analysts who raised concerns were met with lawsuits and corporate smear campaigns. Even when auditors raised questions, the company used forged documents and a network of shell companies to maintain the illusion. In the end, it took a missing €1.9 billion from Wirecard’s accounts to expose the fraud. </p>
+
+<p> Regulatory failures allow fraud to thrive. Weak enforcement, as seen with delayed scrutiny of Madoff and Wirecard, enables prolonged deception (SEC, 2009). Auditors, meant to act as gatekeepers, have repeatedly overlooked red flags, as demonstrated in Enron and Wirecard (McLean & Elkind, 2003; Financial Times, 2020). Emerging technologies present new challenges; cryptocurrencies and decentralised finance provide fraudsters with anonymity, making detection harder (Zohar, 2022). As financial innovation outpaces regulation, fraudsters continue to exploit gaps in oversight. </p>
+
+<p> Financial fraud is an evolving game. Despite regulatory reforms, the fundamental tactics remain the same: manipulate trust, remove transparency, and control perception. As markets become more complex, the only safeguard is vigilance—both by regulators and investors—because if something seems too good to be true, it probably is. </p>
+<p><b> References </b></p>
+
+<p> Financial Times. Wirecard: The timeline of a scandal. 2020. Available from: https://www.ft.com </p>
+
+<p> Henning PJ. The Galleon case and the future of insider trading enforcement. NYU Journal of Law & Business. 2012;8(1):1-22. </p>
+
+<p> Lewis M. The undoing project: A friendship that changed our minds. Norton & Co; 2016. </p>
+
+<p> McLean B, Elkind P. The smartest guys in the room: The amazing rise and scandalous fall of Enron. Penguin; 2003. </p>
+
+<p> SEC. Investigation of failure of the SEC to uncover Bernard Madoff’s Ponzi scheme. 2009. Available from: https://www.sec.gov </p>
+
+<p> Shiller RJ. Irrational exuberance. Princeton University Press; 2015. </p>
+
+<p> Zohar A. Bitcoin: under the hood. Communications of the ACM. 2022;65(4):28-36. </p>
+ 
+      </>
+    ),
+  },  
 ];
 
