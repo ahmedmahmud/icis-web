@@ -624,6 +624,64 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
  
       </>
     ),
+  },
+  {
+    id: 15,
+    title: "How I Landed an Internship at Goldman Saches - without experience or referrals",
+    date: "March 3rd 2025",
+    author: "Daniel Tompkins",
+    excerpt: "Struggling to land a finance job or internship? Endless applications, cover letters, and rejections with no feedback? If this sounds familiar, you’re not alone...",
+    thumbnail: "img/articles/goldman.jpg",
+    fullContent: (
+      <>
+      <p> Struggling to land a finance job or internship? Endless applications, cover letters, and rejections with no feedback? If this sounds familiar, you’re not alone. My name is Daniel Tompkins, a final-year MSci Geophysics student and incoming Goldman Sachs summer analyst in Global Markets (FICC and Equities). I had no referrals, no finance experience, and no industry connections. Here’s how I did it. </p>
+
+<p> I’ll break my journey into three stages: getting the interview, preparing for it, and nailing it. While my experience is with Goldman Sachs’ Global Markets division, these tips apply to any high-finance role at any firm. </p>
+
+<p> The hardest part of the application process is getting to the interview stage. In 2024, Goldman Sachs received 121 applications per spot, meaning most candidates are rejected without feedback—I faced hundreds of rejections over two and a half years before landing my role. The key is to apply early and tailor your CV to highlight relevant skills. In an ideal world, you would be applying for roles as soon as they are open; more realistically, applying within the first couple of weeks is fine. I applied to Goldman 2-3 weeks after applications opened. You don’t need extensive finance experience—my CV showcased my programming and data analysis skills, leadership roles, tutoring experience, and involvement in my university’s Investment Society as well as paper trading. For example, when discussing my tutoring experience, I stressed the fact that I was managing relationships with my clients and made clear the fact that I had experience closing new clients and adding them to my portfolio, a skill that is crucial in a markets role. Framing your experiences effectively and applying early are crucial to passing the initial screening. </p>
+
+<p> Interview preparation is a skill that requires practice. Mock interviews with professionals or friends help refine your answers, identify weak spots, and improve delivery. I always perform better after practicing—treat it like mock exams for real ones. Know your CV inside out; before my Goldman Superday, I practiced defending every point for at least 30 seconds. This builds confidence and ensures you’re ready for tough questions. Also, develop genuine opinions about the industry. Avoid recycled answers to questions like “Tell me about a recent market trend.” Stand out by sharing insights you’re passionate about. Resources like Goldman’s Exchanges at Goldman Sachs podcast can provide valuable talking points—I listened to a few episodes before my interviews and found them incredibly helpful.  </p>
+<p> You’ve secured an interview—congratulations! Your odds have improved from 1 in 100 to 1 in ~5. The key to success is confidence: in your abilities, your fit for the role, and your willingness to walk away if it’s not right. During my Goldman Superday, I presented myself as someone with interesting experience, curious about the company, not desperate to join. Stay calm if you make a mistake—in my HireVue, I incorrectly stated that increasing supply without demand raises prices, but I corrected myself and moved on. Always come prepared with thoughtful questions. My go-to is: “What makes high performers at the company stand out?” This sparks engaging conversations and gives insight into the company’s culture. Remember, you’re interviewing them as much as they’re interviewing you. </p>
+
+<p> The job search can feel overwhelming, and the market is tough, but don’t lose hope. I’m no different from any of you reading this; I just kept pushing through the rejections. Stay committed to your goal, keep networking, applying, and improving your CV. When the right opportunity comes, everything can change quickly. Good luck! </p>
+      </>
+    ),
+  },  
+  {
+    id: 16,
+    title: "Investing in the Pharmaceutical Industry",
+    date: "March 3rd 2025",
+    author: "Tiwaysyya Santhrasegaran",
+    excerpt: "The COVID-19 pandemic put the pharmaceutical industry under the spotlight, with Big Pharma companies racing to develop vaccines at unprecedented speed. Such is the importance we place on our health...",
+    thumbnail: "img/articles/pharma.jpg",
+    fullContent: (
+      <>
+      <p> The COVID-19 pandemic put the pharmaceutical industry under the spotlight, with Big Pharma companies racing to develop vaccines at unprecedented speed. Such is the importance we place on our health, and the reason global pharmaceutical sales increase every year. As of 2022, the medicine market surpassed $1.48 trillion, with growth projected at a 6% CAGR through 2027 to about $1.9 trillion (IQVIA, 2023). </p>
+<p> To make investment decisions, understanding the types of companies is critical. Biopharmaceutical companies develop drugs of biological origin and can yield high returns but carry more risk. Big pharma, the world’s largest pharmaceutical companies, have established product pipelines and are more stable investments. Generic drug companies produce ‘biosimilars, cheaper versions of branded medications after patents expire, that carry lower risk than new drugs. Speciality pharmaceuticals focus on rare or chronic diseases. They can yield high revenue with successful drugs, offering high-growth potential for investors willing to take on risk (Levelfields, 2024). </p>
+<p> Assessing the financial stability of a company requires evaluating revenue, profit margins, debt levels, and stock prices. Strong financials reflect the capability to invest in new drug candidates and maintain market position. A critical measure of a company’s potential is its drug pipeline: companies relying on a single drug face risks due to uncertainty with FDA/MHRA regulations, patent expirations, and the 10–15-year developmental process (Lo & Field, 2013). A better strategy would be to select companies with multiple drug candidates at different stages of clinical trials. Pharma exchange-traded funds are an option for those looking to mitigate risk with a diversified portfolio of shares of multiple companies (Beattie, 2021). </p>
+<p> Investments are increasingly funding advancements in disease understanding and technology, propelling innovation to new levels. AI in drug development is reducing research costs and accelerating the identification of drug candidates (Zhang et al., 2025). Investors favour companies involved in personalised medicine, which now optimises cancer treatment for each patient’s genetic profile (Singh et al., 2024). The first wave of CRISPR-based gene editing therapies with the potential to cure genetic disorders, are entering the market within 5 years (CRISPR Medicine, 2024). Additionally, mRNA vaccine technology, which turned the tide during the COVID pandemic, is now being adapted for other infectious diseases and chronic conditions. </p>
+<p> Investing in pharma stocks is tricky because volatility, regulatory decisions, and clinical trial outcomes cause stock prices to skyrocket or plummet. A major risk is patent expirations, with $200 billion in annual revenue of Big Pharma at risk through the end of 2030 as multiple blockbuster drugs lose exclusivity. This patent cliff pressures companies to replenish their pipelines with new products to compensate for competition from biosimilars. A silver lining is that many biosimilars are not interchangeable for their branded counterparts and doctors may hesitate to switch prescriptions for stable patients (Gardner, 2023). </p>
+<p> Despite uncertainties, pharmaceutical stocks have shown resilience, often performing well even during recessions due to the constant need for healthcare. Through careful analysis of companies pipelines and awareness of new advancements, investors have the opportunity for significant growth. </p>
+<p><b> References </b></p>
+<p> Andrew Beattie (2021). Evaluating Pharmaceutical Companies. [online] Investopedia. Available at: https://www.investopedia.com/articles/06/drugmarket.asp. </p>
+
+<p> CRISPR Medicine. (2024). Press Release Service: CRISPR Cas9 Market Opportunity & Clinical Trials Market Outlook to 2029: Focus on Approved CRISPR-Cas9 Therapy - Casgevy (Exagamglogene Autotemcel) Therapy Clinical Insight - ResearchAndMarkets.com - CRISPR Medicine. [online] Available at: https://crisprmedicinenews.com/press-release-service/card/crispr-cas9-market-opportunity-amp-clinical-trials-market-outlook-to-2029-focus-on-approved-crisp/. </p>
+
+<p> Gardner, J. (2023). Big pharma’s looming threat: a patent cliff of ‘tectonic magnitude’. [online] BioPharma Dive. Available at: https://www.biopharmadive.com/news/pharma-patent-cliff-biologic-drugs-humira-keytruda/642660/. </p>
+
+<p> IQVIA (2023). Global Market for Medicines to Rise to $1.9 Trillion by 2027, says Report from IQVIA Institute. [online] www.iqvia.com. Available at: https://www.iqvia.com/newsroom/2023/01/global-market-for-medicines-to-rise-to-19-trillion-by-2027-says-report-from-iqvia-institute. </p>
+
+<p> Levelfields.ai. (2024). LevelFields — Why and How to Invest in Pharma Stocks: A Complete Guide. [online] Available at: https://www.levelfields.ai/news/invest-in-pharma-stocks [Accessed 1 Mar. 2025]. </p>
+
+<p> Lo, B. and Field, M.J. (2013). The Pathway from Idea to Regulatory Approval: Examples for Drug Development. [online] Nih.gov. Available at: https://www.ncbi.nlm.nih.gov/books/NBK22930/. </p>
+<p> Singh, D., Dhiman, V.K., Pandey, M., Dhiman, V.K., Sharma, A., Pandey, H., Verma, S.K. and Pandey, R. (2024). Personalized medicine: An alternative for Cancer Treatment. Cancer Treatment and Research Communications, [online] 42, p.100860. doi:https://doi.org/10.1016/j.ctarc.2024.100860. </p>
+
+<p> Yadav, P., Corridon, C. and MBA, M.M. (2025). The Next Frontier: Oncology Biosimilars in 2025 and Beyond. [online] Center for Biosimilars. Available at: https://www.centerforbiosimilars.com/view/the-next-frontier-oncology-biosimilars-in-2025-and-beyond [Accessed 1 Mar. 2025]. </p>
+
+<p> Zhang, K., Yang, X., Wang, Y., Yu, Y., Huang, N., Li, G., Li, X., Wu, J.C. and Yang, S. (2025). Artificial intelligence in drug development. Nature Medicine, [online] pp.1–15. doi:https://doi.org/10.1038/s41591-024-03434-4. </p>
+
+      </>
+    ),
   },  
 ];
 
