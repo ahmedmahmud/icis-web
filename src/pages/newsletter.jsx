@@ -627,7 +627,7 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
   },
   {
     id: 15,
-    title: "How I Landed an Internship at Goldman Saches - without experience or referrals",
+    title: "How I Landed an Internship at Goldman Sachs - without experience or referrals",
     date: "March 3rd 2025",
     author: "Daniel Tompkins",
     excerpt: "Struggling to land a finance job or internship? Endless applications, cover letters, and rejections with no feedback? If this sounds familiar, you’re not alone...",
@@ -679,6 +679,99 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
 <p> Yadav, P., Corridon, C. and MBA, M.M. (2025). The Next Frontier: Oncology Biosimilars in 2025 and Beyond. [online] Center for Biosimilars. Available at: https://www.centerforbiosimilars.com/view/the-next-frontier-oncology-biosimilars-in-2025-and-beyond [Accessed 1 Mar. 2025]. </p>
 
 <p> Zhang, K., Yang, X., Wang, Y., Yu, Y., Huang, N., Li, G., Li, X., Wu, J.C. and Yang, S. (2025). Artificial intelligence in drug development. Nature Medicine, [online] pp.1–15. doi:https://doi.org/10.1038/s41591-024-03434-4. </p>
+
+      </>
+    ),
+  },  
+  {
+    id: 17,
+    title: "",
+    date: "March 18th 2025",
+    author: "Christian Piazza",
+    excerpt: "Real estate is a financial instrument commonly associated with buying, selling, and renting houses. However, this asset class has far more depth than meets the eye, encompassing both physical and intangible instruments. Each of these instruments possesses unique characteristics that can offer diverse...",
+    thumbnail: "img/articles/foundations.jpg",
+    fullContent: (
+      <>
+   <p> Real estate is a financial instrument commonly associated with buying, selling, and renting houses. However, this asset class has far more depth than meets the eye, encompassing both physical and intangible instruments. Each of these instruments possesses unique characteristics that can offer diverse opportunities, allowing investors to diversify their assets, support long-term investment strategies, and protect against market volatility. This article explores what real estate is, why one should invest in it, the main categories of real estate and their benefits, and the various ways of investing. </p> 
+
+<p> Real estate refers to buildings and the land on which they are built, including everything below and above the surface. It is a subcategory of real property that consists of both tangible physical assets and intangible elements such as the rights to sell, lease, inheritance income, and tax benefits (Chen, 2024). In 2024, the global real estate market exceeded $600 trillion, with over $500 trillion coming from the residential sector; these values are expected to rise significantly in the future (Statista, n.d.). Real estate statistics are often used as economic indicators. For example, the US Census Bureau uses housing starts (the number of houses which have begun construction) to gauge economic growth. On a local scale, a decline in housing starts may indicate future supply shortages and, consequently, increased rent prices (Nguyen, 2024). The price of real estate is influenced by several factors, including interest rates, which affect purchasing power by making mortgages more expensive and reducing demand. Additionally, government policies such as the upcoming 2% increase in stamp duty tax in the UK (set to take effect in April 2025) are expected to slow market activity, lower demand, and reduce house prices (Nguyen, 2024). Different investment forms, such as Real Estate Investment Trusts (REITs), may also respond differently during economic downturns (Investopedia Team, 2024). </p>
+<p> Real estate has characteristics that distinguish it from stocks, commodities, and bonds, making it an attractive investment option. One major advantage is that renting out properties generates a steady income stream, even in times of economic uncertainty, as high interest rates, inflation, and housing shortages can boost house prices. Furthermore, real estate returns tend to have a low or negative correlation with those of other asset classes, making real estate an ideal tool for diversifying portfolios and hedging against inflation. During downturns, properties often trade at a yield premium to U.S. Treasury Bonds (Investopedia Team, 2024). In addition to providing consistent rental income, properties generally appreciate over time, offering substantial future returns even if they are not actively rented out. Leverage is another attractive feature of real estate investing, as it often requires relatively small down payments combined with long-term mortgage repayment plans. Moreover, property owners and house renters benefit from various tax deductions on mortgage interests, property tax, maintenance costs, and depreciation (Hunter, 2024). In other words, since money spent on mortgage repayments can be deducted from tax payments, one can benefit from ownership of an asset, without paying tax on its equivalent cash value. </p>
+<p> Real estate is broadly classified into several categories, each with distinct strategies for generating profit. The residential sector includes houses, council flats, and apartments for individuals and families, where profit is typically achieved through renting or house flipping. Commercial real estate consists of land and buildings used by businesses, such as office spaces, shopping centres, and hotels, which generate income through business operations. Industrial real estate, which has gained popularity due to the surge in e-commerce, consists of properties used for production, logistics, warehousing, and other industrial activities (CFI Team, n.d.). Finally, land refers to both vacant and utilised land, including agricultural and undeveloped properties, often making it the most affordable type of real estate investment. </p>
+
+<p> There are several methods by which one can profit from real estate. One common approach is residential renting, where property owners earn regular income that can even help finance mortgage payments while simultaneously benefiting from long-term property appreciation (Hunter, 2024). However, managing rental properties requires expertise in property management and often involves dealing with tenant issues; many landlords opt to hire external property management companies for this purpose (Shasha, 2024). Commercial renting follows a similar concept but typically involves higher risks and rewards due to the need for significant initial capital and the potential for higher rental yields and longer lease agreements. Another strategy is house flipping, which involves purchasing, refurbishing, and selling homes for profit. Although this approach allows for quicker appreciation of a property’s value, it requires substantial upfront capital, expertise, and often short-term loans. </p>
+<p> For those who prefer indirect investment options, there are alternatives such as investing in REITs, Real Estate Investment Groups (REIGs), Real Estate Mutual Funds (REMFs), and Real Estate Limited Partnerships (RELPs). REITs enable investors to buy shares in companies that own, operate, and sell income-producing properties, offering benefits such as regular dividends and asset appreciation (Investopedia Team, 2024). REIGs allow investors to purchase or mortgage rental units while paying management fees, REMFs provide diversification through investments in multiple REITs, and RELPs are formed for specific development projects, providing investors with a share of the final sale profit once properties are sold. </p>
+
+<p> Overall, real estate is a multifaceted asset class that, when properly understood, can be a highly profitable addition to a diversified investment portfolio. Whether one chooses to invest directly by buying and selling properties or indirectly through trusts and groups, real estate provides an effective means of generating passive income, benefiting from long-term asset appreciation, and maintaining wealth during challenging economic periods. </p>
+
+<p> References </p>
+<p> Chen, J. (2024) Real Estate: Definition, Types, How to Invest in It. Available at: https://www.investopedia.com/terms/r/realestate.asp (Accessed: 10 March 2025). </p>
+
+<p> CFI Team (n.d.) Real Estate: Land, Improvements or Natural Resources. Available at: https://corporatefinanceinstitute.com/resources/commercial-real-estate/real-estate/ (Accessed: 10 March 2025). </p> 
+
+<p> Hunter, T. (2024) The Pros and Cons of Different Real Estate Investment Types. Available at: https://keelteam.com/post/the-pros-and-cons-of-different-real-estate-investment-types/ (Accessed: 10 March 2025). </p>
+
+<p> Investopedia Team (2024) A Beginner’s Guide to Real Estate Investing. Available at: https://www.investopedia.com/mortgage/real-estate-investing-guide/#toc-the-bottom-line (Accessed: 10 March 2025). </p>
+
+<p> Nguyen, J. (2024) Factors Affecting Real Estate Market. Available at: https://www.investopedia.com/articles/mortages-real-estate/11/factors-affecting-real-estate-market.asp (Accessed: 10 March 2025). </p>
+
+<p> Shasha, M. (2024) The Benefits of Using a Property Management Company. Available at: https://plazaestates.co.uk/letting/the-benefits-of-using-a-property-management-company/ (Accessed: 10 March 2025). </p>
+
+<p> Statista (n.d.) Worldwide Real Estate Value. Available at: https://www.statista.com/outlook/fmo/real-estate/worldwide#value (Accessed: 10 March 2025). </p>
+
+      </>
+    ),
+  },  
+  {
+    id: 18,
+    title: "Thirsty AI and Dry Land: The Hidden Cost of ChatGPT",
+    date: "March 18th 2025",
+    author: "Nikita Karri",
+    excerpt: "In January, a string of fires burst across California. It ravaged fifty-seven thousand acres of dry land, sweeping through some of the richest parts of Los Angeles and Malibu—homes of Paris Hilton and Sir Anthony Hopkins—and even reached the Pasadena Jewish temple. A euphemism would be to simply call it wildfire damage...",
+    thumbnail: "img/articles/AI again.jpg",
+    fullContent: (
+      <>
+  <p> In January, a string of fires burst across California. It ravaged fifty-seven thousand acres of dry land, sweeping through some of the richest parts of Los Angeles and Malibu—homes of Paris Hilton and Sir Anthony Hopkins—and even reached the Pasadena Jewish temple. A euphemism would be to simply call it wildfire damage, and it is mildly ironic that even the most expensive areas have fallen to this semi-natural disaster. Today, those fires have devastated the city, facing a decade-long rebuilding effort and a hefty cost of $30 billion (Contreras, 2025). </p>
+
+<p> If you were active on ‘Twitter/X’ at the time, then you might have noticed a growing question about who caused these fires in LA, and, by some strange accord, users asked, is ChatGPT the culprit? </p>
+
+<p> Lie: Each time you ask ChatGPT (GPT-4) a question, you start another wildfire in California. </p>
+
+<p> Truth: Writing a 100-word email using ChatGPT (GPT-4) consumes about a 500 ml bottle of water (Sellman & Vaughan, 2024).  </p>
+
+<p> Truth: AI is growing an exploding water footprint. </p>
+<p> Each time you ask ChatGPT a question, giant data centres hum with activity, consuming large amounts of energy and, in turn, water for cooling. The idea that a 100-word email generated by ChatGPT (GPT-4) consumes approximately 500 ml of water may seem insignificant, but when scaled across billions of daily interactions, the implications for water security, especially in drought-prone regions, are huge. </p>
+
+<p> AI is not directly responsible for the drought, but the CEO of the Los Angeles Department of Water and Power said the demand for water was four times the norm (Hagerty, 2025). The water systems were not designed to contain fires so aggressive. So, when a study reports that Microsoft used about 700,000 litres of freshwater during GPT-3’s training in its data centres (equivalent to producing 320 Tesla vehicles) (Mclean, 2023), concerns over AI water usage in drought-prone areas are not completely unfounded. </p>
+
+<p> This article explores the burgeoning water demands of AI and the potential consequences of this escalating consumption on our planet's already stressed water resources. How do we balance the immense potential of AI with the urgent need for sustainable resource management? </p>
+
+<p> AI is thirsty. It requires giant data centres to power it. The energy produced turns into heat, which needs cooling. Water provides the cooling. What’s important to note is that data centres use fresh mains water, that is, water supplied by the public water supply system, instead of surface water. It prevents the pipes and heat exchangers used to cool racks of data servers from getting clogged up with contaminants (Kleinman & Wheeler, 2025).  </p>
+<p> So, what does this mean for us? Or really, the world in general? </p>
+
+<p> The use of AI is growing. Its market size is expected to show an annual growth rate (CAGR 2025-2030) of 27.67% (Statista, 2024). At this rate, demand for fresh water to support all people and industries is expected to exceed available supplies by 40% also by 2030 (according to researchers at Uptime Institute). Causing this is the fact that water is undervalued even when it is scarce. When Microsoft assessed its water footprint at a data centre in San Antonio, Texas, it found the real cost of water to be 11 times more than it was paying (Tenuta, 2019). </p>
+
+<p> Water must be valued as an asset rather than a commodity, since it holds an intrinsic value – it is essential for life. Treating it as a tradeable good would subject it to the short-term volatility and the speculation of global markets, and a low price for it would subvert the real water risk. Perhaps Microsoft paid the commodity price and neglected the asset value. </p>
+<p> When fresh water is viewed as an asset, its risk is priced in. Companies are making decisions about data centre locations without fully accounting for the long-term costs of water scarcity, environmental regulations, and potential reputational damage. A low metered price doesn't reflect the potential costs linked to limited water availability.  </p>
+
+<p> The risk is that we will continue to lose freshwater species at alarming rates, impede access to safe drinking water for millions, and even jeopardise the production of energy, all of which rely on stable freshwater systems. The WWF shows us the risk of undervaluing water is evident from the example of the Rio Grande. In North America, the Rio Grande/Rio Bravo River supplies water for industrial, agricultural and municipal uses for 16 million people. But it is subject to water overextraction, leaving it dried up completely near El Paso (Thieme, 2023). We might hypothesise a similar outcome could happen in regions with high concentrations of data centres, particularly in highly concentrated, water-scarce regions of data centres such as London, Silicon Valley, and Mumbai. </p>
+
+<p> So, when we think about the wildfires in LA, maybe we asked the wrong question. But maybe we just peered from the wrong angle, so to say. Instead, what can be done? With innovation, there can be hidden costs, and as the innovation of AI tools continues, we should keep the costs of water scarcity in mind. </p>
+<p> References </p>
+
+<p> Contreras, B. (2025, January 23). The Cost of the Los Angeles Fires Is Looking Like $30 Billion—and Counting. Inc. https://www.inc.com/brian-contreras/the-cost-of-the-los-angeles-fires-is-looking-like-30-billion-and-counting/91111161  </p>
+
+<p> Sellman, M., & Vaughan, A. (2024, October 4). “Thirsty” ChatGPT uses four times more water than previously thought. Thetimes.com; The Times. https://www.thetimes.com/uk/technology-uk/article/thirsty-chatgpt-uses-four-times-more-water-than-previously-thought-bc0pqswdr </p>
+
+<p> ‌McLean, S. (2023, April 28). The Environmental Impact of ChatGPT: A Call for Sustainable Practices In AI Development. Earth.org. https://earth.org/environmental-impact-chatgpt/ </p>
+
+<p> Hagerty, C. (2025, January 10). Here’s what really caused L.A. fire hydrants to run out of water. National Geographic. https://www.nationalgeographic.com/environment/article/los-angeles-wildfires-water-scarcity </p>
+
+<p> Kleinman, Z., & Wheeler, B. (2025, February 7). Concern the UK’s AI ambitions could lead to water shortages. BBC News. https://www.bbc.co.uk/news/articles/ce85wx9jjndo </p>
+
+<p> Statista. (2024, August). Artificial Intelligence - Global | Statista Market Forecast. Statista. https://www.statista.com/outlook/tmo/artificial-intelligence/worldwide </p>
+<p> Tenuta, E. (2019, April). Water Scarcity Could Put Your Data Center at Risk. Uptime Institute https://www.ecolab.com/-/media/Widen/Nalco-Water/Water/R-2009_Water_Scarcity_Could_Put_Your_Data_Center_at_Risk_pdf.pdf </p>
+
+<p> Thieme, M. (2023, October 16) We Have Undervalued Freshwater; We Have Also Undervalued How Much It Matters. World Wildlife Fund. https://www.worldwildlife.org/blogs/sustainability-works/posts/we-have-undervalued-freshwater-we-have-also-undervalued-how-much-it-matters </p>
 
       </>
     ),
