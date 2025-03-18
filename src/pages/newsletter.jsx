@@ -685,7 +685,7 @@ Asgari, N. (2024) ‘Banks and fund managers call on EU to commit to shorter set
   },  
   {
     id: 17,
-    title: "",
+    title: "Laying Foundations: An Introduction to Real Estate Investing",
     date: "March 18th 2025",
     author: "Christian Piazza",
     excerpt: "Real estate is a financial instrument commonly associated with buying, selling, and renting houses. However, this asset class has far more depth than meets the eye, encompassing both physical and intangible instruments. Each of these instruments possesses unique characteristics that can offer diverse...",
