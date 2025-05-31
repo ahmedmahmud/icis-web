@@ -24,6 +24,14 @@ const sponsors = {
       image: "img/partners/deutsche bank.png",
     },
     {
+      name: "Trading View",
+      description: [
+        "TradingView is a renowned platform for traders and investors, adored and frequented by countless individuals across the globe. It presents cutting-edge charting instruments and a realm where market enthusiasts can interact, visualize data, and ready themselves for BTCUSD trading and other assets.",
+      ],
+      website: "https://www.tradingview.com/",
+      image: "img/partners/TV.png",
+    },
+    {
       name: "Castleton Commodities International",
       description: [
         "Castleton Commodities International (CCI) is a global energy and commodities trading firm that specializes in the trading, storage, and transportation of physical commodities such as natural gas, power, oil, and refined products. Founded in 1997, CCI also engages in infrastructure asset investments and optimization, providing strategic insight into global markets. With a presence across key energy hubs worldwide, CCI combines its expertise in commodity trading, logistics, and asset management to offer integrated solutions for clients in the energy and industrial sectors.",
